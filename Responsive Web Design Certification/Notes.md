@@ -23,5 +23,6 @@ image element with a src attribute and alt attribute
 - HTML represents the blocks, concrete, and irons that make up the walls. It's the foundation that makes the building strong. CSS represents the interior and exterior design that makes the house look beautiful. JavaScript represents the electrical and water system that ensures uninterrupted access to water and electricity.
 ```
 <element attribute="value"></element>
+The value can be a string or a number, depending on the attribute.
 <a href="https://www.freecodecamp.org/news/" target="_blank">Visit freeCodeCamp</a>
 ```
