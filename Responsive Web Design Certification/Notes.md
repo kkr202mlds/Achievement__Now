@@ -1,4 +1,5 @@
 - HTML stands for Hypertext Markup Language, is a markup language for creating web pages. It's the code that defines the structure and content like (paragraphs, headings, links, images, and videos) of a webpage.
+- HTML tag names are case-insensitive like <H1> as same as <h1>
 ```
 left angle bracket (<), right angle bracket (>) &  forward slash (/)
 <opening tag>content</closing tag>
