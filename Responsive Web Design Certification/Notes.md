@@ -1,5 +1,6 @@
 - HTML stands for Hypertext Markup Language, is a markup language for creating web pages. It's the code that defines the structure and content like (paragraphs, headings, links, images, and videos) of a webpage.
 ```
+left angle bracket (<), right angle bracket (>) &  forward slash (/)
 <opening tag>content</closing tag>
 ```
 - HTML is made up of elements. The first one you will use is the h1 element.
