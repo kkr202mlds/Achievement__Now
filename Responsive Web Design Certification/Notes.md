@@ -101,7 +101,7 @@ stylesheet: Imports an external CSS file to style the webpage
 ```
 - **meta elements** (metadata) has details about things like character encoding.
 - Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.
-### What purpose does a boilerplate serve?
+#### Purpose does a boilerplate serve
 - Provides a starting structure for your websites.
 - Ensures you are not missing any essential elements.
 - Allows you to get started writing the content of your page faster.
