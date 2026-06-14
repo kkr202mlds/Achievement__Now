@@ -62,3 +62,46 @@ stylesheet: Imports an external CSS file to style the webpage
   rel="stylesheet"
 />
 ```
+- **preconnect value** for the rel attribute tells the browser to create an early connection to the value.
+- A favicon, which is short for favorite icon, is a small icon typically displayed in the browser tab next to the site title. A lot of websites will use a favicon to display their brand icon
+```
+<link rel="icon" href="favicon.ico" />
+```
+- **HTML boilerplate** is like a ready-made template for your webpages. Think of it as the foundation of a house. A boilerplate includes the basic structure and essential elements every HTML document needs.
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+       name="viewport"
+       content="width=device-width, initial-scale=1.0" />
+    <title>freeCodeCamp</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+  </body>
+</html>
+```
+- DOCTYPE declaration (Document Type Declaration) is an instruction placed at the very top of a web document to tell the web browser how to interpret and render the page.
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Important metadata goes here-->
+  </head>
+  <body>
+    <!--Headings, paragraphs, images, etc. go inside here-->
+  </body>
+</html>
+```
+- language for your page is set in the opening html tag.
+```
+<html lang="en">
+```
+- **meta elements** (metadata) has details about things like character encoding.
+- Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.
+### What purpose does a boilerplate serve?
+- Provides a starting structure for your websites.
+- Ensures you are not missing any essential elements.
+- Allows you to get started writing the content of your page faster.
