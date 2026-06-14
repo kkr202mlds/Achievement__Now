@@ -26,6 +26,39 @@ image element with a src attribute and alt attribute
 The value can be a string or a number, depending on the attribute.
 <a href="https://www.freecodecamp.org/news/" target="_blank">Visit freeCodeCamp</a>
 ```
-- **href attribute** (hypertext reference) specifies the URL of a link and the **target attribute** specifies where to open the link to open in a new browser tab.
+- **href attribute** (hypertext reference) specifies the URL of a link or external resource and the **target attribute** specifies where to open the link to open in a new browser tab.
 - **anchor element** (a element) is used to create hyperlinks. The text between the opening and closing a tags is the clickable part users select to navigate.
 - **input element** with the type attribute set to checkbox. **Inputs** are used to collect data from users, and the **type attribute** specifies the type of input.
+-  **checked attribute** is used to specify that the checkbox should be checked by default.
+```
+<input type="checkbox" checked />
+<input type="text">
+<input type="text" disabled>
+```
+- If the attribute is not present, the checkbox will be unchecked. This is known as a boolean attribute like disabled & checked.
+- Role of an attribute in HTML -> Attributes provide additional information and help define the behavior for HTML elements.
+```
+<link rel="stylesheet" href="./styles.css" />
+```
+-  **link element** is used to link to external resources like stylesheets and site icons. **rel attribute** stands for relationship b/w html doc & external res. href - hypertext refrenece
+```
+<link rel="stylesheet" href="./styles.css" />
+stylesheet: Imports an external CSS file to style the webpage
+```
+```
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Examples of the link element</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+```
+- Playwright Cuba : link element to link to an external Google Font
+```
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap"
+  rel="stylesheet"
+/>
+```
