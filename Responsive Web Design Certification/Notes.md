@@ -4,7 +4,6 @@ left angle bracket (<), right angle bracket (>) &  forward slash (/)
 <opening tag>content</closing tag>
 ```
 - **Void Element** : Some HTML elements do not have a closing tag. These are known as void elements like img - image element
-
 ```
 <img />
 image element with a src attribute and alt attribute
@@ -16,7 +15,6 @@ image element with a src attribute and alt attribute
 ```
 <H1> as same as <h1> ->  case-insensitive
 ```
-
 - HTML is made up of elements. The first one you will use is the h1 element.
 - An **h1 element** is the main heading of a webpage and you should only use one per page. h2 elements represent subheadings.
 - When you need to add a paragraph to a webpage, you can use the p element.
@@ -46,8 +44,8 @@ The value can be a string or a number, depending on the attribute.
 stylesheet: Imports an external CSS file to style the webpage
 ```
 ```
-<head>
-  <meta charset="UTF-8" />
+<head>                     
+  <meta charset="UTF-8" />  # UTF-8 is the dominant std character encoding system used on web.
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Examples of the link element</title>
   <link rel="stylesheet" href="./styles.css" />
@@ -73,9 +71,7 @@ stylesheet: Imports an external CSS file to style the webpage
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-       name="viewport"
-       content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>freeCodeCamp</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -99,9 +95,13 @@ stylesheet: Imports an external CSS file to style the webpage
 ```
 <html lang="en">
 ```
+- UCS- (Unicode Character Set) Transformation Format 8
+- **Character encoding** is the method computers use to store characters as data. Essentially, all text on a web page is a sequence of characters stored as one or more bytes.
+- In computing, a byte is a unit of data consisting of 8 bits, or binary digits.
 - **meta elements** (metadata) has details about things like character encoding.
 - Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.
 #### Purpose does a HTML boilerplate serve
 - Provides a starting structure for your websites.
 - Ensures you are not missing any essential elements.
 - Allows you to get started writing the content of your page faster.
+
