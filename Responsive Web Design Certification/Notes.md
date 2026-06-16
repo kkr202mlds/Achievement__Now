@@ -104,4 +104,9 @@ stylesheet: Imports an external CSS file to style the webpage
 - Provides a starting structure for your websites.
 - Ensures you are not missing any essential elements.
 - Allows you to get started writing the content of your page faster.
-
+- Turn the image <img> into a link by <a> anchor's tags.
+```
+<a href="example-link">
+  <img src="image-link.jpg" alt="A photo of a cat.">
+</a>
+```
