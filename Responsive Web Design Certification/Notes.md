@@ -43,6 +43,8 @@ The value can be a string or a number, depending on the attribute.
 <link rel="stylesheet" href="./styles.css" />
 stylesheet: Imports an external CSS file to style the webpage
 ```
+- **<head> element tag** is used to contain metadata about the document, such as its title, links to stylesheets, and scripts.
+- **<meta> Metadata element tag** is information about the page that isn't displayed directly on the page.
 ```
 <head>                     
   <meta charset="UTF-8" />  # UTF-8 is the dominant std character encoding system used on web.
@@ -79,7 +81,7 @@ stylesheet: Imports an external CSS file to style the webpage
   </body>
 </html>
 ```
-- DOCTYPE declaration (Document Type Declaration) is an instruction placed at the very top of a web document to tell the web browser how to interpret and render the page.
+- DOCTYPE declaration (Document Type Declaration) is an instruction placed at the very top of a web document to tell the web browser how to interpret and render the page. HTML5 document
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -98,7 +100,7 @@ stylesheet: Imports an external CSS file to style the webpage
 - UCS- (Unicode Character Set) Transformation Format 8
 - **Character encoding** is the method computers use to store characters as data. Essentially, all text on a web page is a sequence of characters stored as one or more bytes.
 - In computing, a byte is a unit of data consisting of 8 bits, or binary digits.
-- **meta elements** (metadata) has details about things like character encoding.
+- **meta elements tag** (metadata) has details about things like character encoding.
 - Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.
 #### Purpose does a HTML boilerplate serve
 - Provides a starting structure for your websites.
@@ -109,4 +111,40 @@ stylesheet: Imports an external CSS file to style the webpage
 <a href="example-link">
   <img src="image-link.jpg" alt="A photo of a cat.">
 </a>
+```
+- **<section> element tag** to separate the cat photos content from the future content.
+- section element is used to define sections in a document, such as chapters, headers, footers, or any other sections of the document. It is a semantic element that helps with SEO and accessibility.
+```
+<section>
+  <h2>Section Title</h2>
+  <p>Section content...</p>
+</section>
+```
+- **<ul> element tag** : To create an unordered list of items.
+- **<ol> element tag** : defines an ordered list, which displays a sequence of items in a specific numerical, alphabetical, or Roman numeral order
+- **<li> element tag** : is used to create a list item in an ordered <ol >or unordered list.
+```
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+```
+- **<figure> element tag** represents self-contained content and will allow you to associate an image with a caption.
+- figure caption <figcaption> element tag is used to add a caption to describe the image.
+```
+<figure>
+  <img src="image.jpg" alt="A description of the image">
+  <figcaption>A cute cat</figcaption>
+</figure>
+```
+-  **<em> emphasis element tag** : To place emphasis on a specific word or phrase.
+-  **<strong> element tag** : is used to indicate that some text is of strong importance or urgent.
+-  **<footer> element tag** : is used to define a footer for a document or section. A footer typically contains information about the author of the document, copyright data, links to terms of use, contact information, and more.
+```
+<main>
+</main>
+  <footer>
+    <p>Copyright</p> 
+  </footer>
+</body>
 ```
