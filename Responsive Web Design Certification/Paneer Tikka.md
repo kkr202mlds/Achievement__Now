@@ -7,8 +7,8 @@
   <body>
     <main>
       <h1>Paneer Tikka</h1>
-      <p></p>
-      <img src="https://c.ndtvimg.com/2020-01/g6p2i6j8_paneer-tikka_625x300_24_January_20.jpg">
+      <p>Paneer tikka is a classic Indian vegetarian starter made with chunks of paneer (cottage cheese), bell peppers, and onions marinated in spiced yogurt and grilled to a smoky, charred perfection</p>
+      <img src="https://c.ndtvimg.com/2020-01/g6p2i6j8_paneer-tikka_625x300_24_January_20.jpg" alt="Paneer Tikka">
         <h2>Ingredients</h2>
           <ul>
             <li>250 - 300g paneer, cut into thick, large cubes</li>
