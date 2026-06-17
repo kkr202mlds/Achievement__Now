@@ -16,7 +16,7 @@ image element with a src attribute and alt attribute
 <H1> as same as <h1> ->  case-insensitive
 ```
 - HTML is made up of elements. The first one you will use is the h1 element.
-- An **h1 element** is the main heading of a webpage and you should only use one per page. h2 elements represent subheadings.
+- An **`<h1>` element** is the main heading of a webpage and you should only use one per page. h2 elements represent subheadings.
 - When you need to add a paragraph to a webpage, you can use the p element.
 - HTML represents the blocks, concrete, and irons that make up the walls. It's the foundation that makes the building strong. **CSS** represents the interior and exterior design that makes the house look beautiful. **JavaScript** represents the electrical and water system that ensures uninterrupted access to water and electricity.
 ```
@@ -25,8 +25,8 @@ The value can be a string or a number, depending on the attribute.
 <a href="https://www.freecodecamp.org/news/" target="_blank">Visit freeCodeCamp</a>
 ```
 - **href attribute** (hypertext reference) specifies the URL of a link or external resource and the **target attribute** specifies where to open the link to open in a new browser tab.
-- **anchor element** (a element) is used to create hyperlinks. The text between the opening and closing a tags is the clickable part users select to navigate.
-- **input element** with the type attribute set to checkbox. **Inputs** are used to collect data from users, and the **type attribute** specifies the type of input.
+- **anchor element** (`<a>` element) is used to create hyperlinks. The text between the opening and closing a tags is the clickable part users select to navigate.
+- **`<input>` element** with the type attribute set to checkbox. **Inputs** are used to collect data from users, and the **type attribute** specifies the type of input.
 -  **checked attribute** is used to specify that the checkbox should be checked by default.
 ```
 <input type="checkbox" checked />
@@ -38,13 +38,13 @@ The value can be a string or a number, depending on the attribute.
 ```
 <link rel="stylesheet" href="./styles.css" />
 ```
--  **link element** is used to link to external resources like stylesheets and site icons. **rel attribute** stands for relationship b/w html doc & external res. href - hypertext refrenece
+-  **`<link>` element** is used to link to external resources like stylesheets and site icons. **rel attribute** stands for relationship b/w html doc & external res. href - hypertext refrenece
 ```
 <link rel="stylesheet" href="./styles.css" />
 stylesheet: Imports an external CSS file to style the webpage
 ```
-- **<head> element tag** is used to contain metadata about the document, such as its title, links to stylesheets, and scripts.
-- **<meta> Metadata element tag** is information about the page that isn't displayed directly on the page.
+- **`<head>` element tag** is used to contain metadata about the document, such as its title, links to stylesheets, and scripts.
+- **`<meta>` Metadata element tag** is information about the page that isn't displayed directly on the page.
 ```
 <head>                     
   <meta charset="UTF-8" />  # UTF-8 is the dominant std character encoding system used on web.
@@ -100,7 +100,7 @@ stylesheet: Imports an external CSS file to style the webpage
 - UCS- (Unicode Character Set) Transformation Format 8
 - **Character encoding** is the method computers use to store characters as data. Essentially, all text on a web page is a sequence of characters stored as one or more bytes.
 - In computing, a byte is a unit of data consisting of 8 bits, or binary digits.
-- **meta elements tag** (metadata) has details about things like character encoding.
+- **`<meta>` elements tag** (metadata) has details about things like character encoding.
 - Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.
 #### Purpose does a HTML boilerplate serve
 - Provides a starting structure for your websites.
@@ -112,7 +112,7 @@ stylesheet: Imports an external CSS file to style the webpage
   <img src="image-link.jpg" alt="A photo of a cat.">
 </a>
 ```
-- **<section> element tag** to separate the cat photos content from the future content.
+- **`<section>` element tag** to separate the cat photos content from the future content.
 - section element is used to define sections in a document, such as chapters, headers, footers, or any other sections of the document. It is a semantic element that helps with SEO and accessibility.
 ```
 <section>
@@ -121,15 +121,15 @@ stylesheet: Imports an external CSS file to style the webpage
 </section>
 ```
 - **`<ul>` element tag** : To create an unordered list of items.
-- **<ol> element tag** : defines an ordered list, which displays a sequence of items in a specific numerical, alphabetical, or Roman numeral order
-- **<li> element tag** : is used to create a list item in an ordered <ol >or unordered list.
+- **`<ol>` element tag** : defines an ordered list, which displays a sequence of items in a specific numerical, alphabetical, or Roman numeral order
+- **`<li>` element tag** : is used to create a list item in an ordered <ol >or unordered list.
 ```
 <ul>
   <li>milk</li>
   <li>cheese</li>
 </ul>
 ```
-- **<figure> element tag** represents self-contained content and will allow you to associate an image with a caption.
+- **`<figure>` element tag** represents self-contained content and will allow you to associate an image with a caption.
 - figure caption <figcaption> element tag is used to add a caption to describe the image.
 ```
 <figure>
@@ -137,9 +137,9 @@ stylesheet: Imports an external CSS file to style the webpage
   <figcaption>A cute cat</figcaption>
 </figure>
 ```
--  **<em> emphasis element tag** : To place emphasis on a specific word or phrase.
--  **<strong> element tag** : is used to indicate that some text is of strong importance or urgent.
--  **<footer> element tag** : is used to define a footer for a document or section. A footer typically contains information about the author of the document, copyright data, links to terms of use, contact information, and more.
+-  **`<em>` emphasis element tag** : To place emphasis on a specific word or phrase.
+-  **`<strong>` element tag** : is used to indicate that some text is of strong importance or urgent.
+-  **`<footer>` element tag** : is used to define a footer for a document or section. A footer typically contains information about the author of the document, copyright data, links to terms of use, contact information, and more.
 ```
 <main>
 </main>
