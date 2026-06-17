@@ -112,7 +112,7 @@ stylesheet: Imports an external CSS file to style the webpage
   <img src="image-link.jpg" alt="A photo of a cat.">
 </a>
 ```
-- **<section> element tag** to separate the cat photos content from the future content.
+- **/<section> element tag** to separate the cat photos content from the future content.
 - section element is used to define sections in a document, such as chapters, headers, footers, or any other sections of the document. It is a semantic element that helps with SEO and accessibility.
 ```
 <section>
