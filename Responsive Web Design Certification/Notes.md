@@ -120,7 +120,7 @@ stylesheet: Imports an external CSS file to style the webpage
   <p>Section content...</p>
 </section>
 ```
-- **<ul> element tag** : To create an unordered list of items.
+- **/<ul>/ element tag** : To create an unordered list of items.
 - **<ol> element tag** : defines an ordered list, which displays a sequence of items in a specific numerical, alphabetical, or Roman numeral order
 - **<li> element tag** : is used to create a list item in an ordered <ol >or unordered list.
 ```
