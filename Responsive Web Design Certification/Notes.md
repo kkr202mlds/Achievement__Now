@@ -130,7 +130,7 @@ stylesheet: Imports an external CSS file to style the webpage
 </ul>
 ```
 - **`<figure>` element tag** represents self-contained content and will allow you to associate an image with a caption.
-- figure caption <figcaption> element tag is used to add a caption to describe the image.
+- **`<figcaption>` figure caption element tag** is used to add a caption to describe the image.
 ```
 <figure>
   <img src="image.jpg" alt="A description of the image">
