@@ -266,4 +266,4 @@ Input              Output
   </script>
 </body>
 ```
-<img width="400" height="200" alt="Screenshot 2026-06-18 154312" src="https://github.com/user-attachments/assets/ce9ea2d4-66cb-4d6f-a700-246778d16d95" />
+<img width="600" height="300" alt="Screenshot 2026-06-18 154312" src="https://github.com/user-attachments/assets/ce9ea2d4-66cb-4d6f-a700-246778d16d95" />
