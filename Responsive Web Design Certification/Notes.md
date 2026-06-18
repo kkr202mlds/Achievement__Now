@@ -152,4 +152,8 @@ stylesheet: Imports an external CSS file to style the webpage
 `<div>
   <p>Example paragraph element.</p>
 </div>`
-- 
+- **Div Elements** is used as a container to group other elements.
+`<div>
+  <p>Example paragraph element.</p>
+</div>`
+
