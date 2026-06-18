@@ -262,7 +262,7 @@ Input              Output
 ```
 <body>
   <script>
-    // alert("Welcome to freeCodeCamp");
+    alert("Welcome to freeCodeCamp");
   </script>
 </body>
 ```
