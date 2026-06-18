@@ -198,7 +198,7 @@ stylesheet: Imports an external CSS file to style the webpage
 ```
 <h1 id="main-heading">Main heading</h1>
 ```
-- class attribute value does not need to be unique and can contain spaces.
+- **class attribute** value does not need to be unique and can contain spaces.
 ```
 <div class="box"></div>
 # type of class
@@ -235,4 +235,19 @@ stylesheet: Imports an external CSS file to style the webpage
 .blue-box {
   background-color: blue;
 }
+```
+- An HTML entity, or character reference, is a set of characters used to represent a reserved character in HTML.
+- **Named Character References** : start with an ampersand sign (&) and end with a semicolon (;)
+```
+&lt; as same as <
+&gt; as same as >
+```
+- **Decimal Character References** : starts with an ampersand sign and hash symbol (#), followed by one or more decimal digits, followed by a semicolon.
+```
+Input              Output
+&#60;                <        
+&#169;               ©
+&#174;               ®
+&#17;                
+&#x3C;               <
 ```
