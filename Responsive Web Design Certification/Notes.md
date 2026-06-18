@@ -154,5 +154,21 @@ stylesheet: Imports an external CSS file to style the webpage
   <p>Example paragraph element.</p>
 </div>
 ```
+- **section element** has semantic meaning over the **div element** which is not semantic.
+- Semantics are the meaning of words or phrases in a language. In HTML, which is a language, elements have their own semantic meaning too.
+```
+<section>
+  <h2>Mammals</h2>
+  <p>
+    Mammals are warm-blooded animals with fur or hair. Most give birth to live
+    young.
+  </p>
+  <ul>
+    <li>Lion</li>
+    <li>Elephant</li>
+    <li>Dolphin</li>
+  </ul>
+</section>
+```
 
 
