@@ -236,7 +236,7 @@ stylesheet: Imports an external CSS file to style the webpage
   background-color: blue;
 }
 ```
-- An HTML entity, or character reference, is a set of characters used to represent a reserved character in HTML.
+- **HTML entity**, or **Character Reference** is a set of characters used to represent a reserved character in HTML.
 - **Named Character References** : start with an ampersand sign (&) and end with a semicolon (;)
 ```
 &lt; as same as <
@@ -251,3 +251,19 @@ Input              Output
 &#17;                
 &#x3C;               <
 ```
+- **Hexadecimal Numeric Reference** starts with an ampersand sign, hash symbol, and the letter x.
+```
+Input              Output
+&#x20AC;             €
+&#x03A9;             Ω
+```
+- **script element** is used to embed executable code. 
+- **JavaScript** is used to add interactivity to your web pages. JavaScript include interactive games, image sliders, and dynamic forms.
+```
+<body>
+  <script>
+    // alert("Welcome to freeCodeCamp");
+  </script>
+</body>
+```
+<img width="200" height="200" alt="Screenshot 2026-06-18 154312" src="https://github.com/user-attachments/assets/ce9ea2d4-66cb-4d6f-a700-246778d16d95" />
