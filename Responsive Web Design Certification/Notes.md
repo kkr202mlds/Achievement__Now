@@ -148,7 +148,7 @@ stylesheet: Imports an external CSS file to style the webpage
   </footer>
 </body>
 ```
-- **Div Elements** is used as a container to group other elements.
+- **Div Elements** is used as a container to group other elements. When grouping related content for styling purposes CSS.
 ```
 <div>
   <p>Example paragraph element.</p>
@@ -170,5 +170,69 @@ stylesheet: Imports an external CSS file to style the webpage
   </ul>
 </section>
 ```
+- **id attribute** adds a unique identifier to an HTML element.
+```
+<h1 id="title">Movie Review Page</h1>
+```
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review page Example</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Movie Review Page</h1>
+  </body>
+</html>
 
+:- style.css
+#title {
+  color: blue;
+}
+```
+- id attribute values should only contain letters, digits, underscores, and dashes.
+- id attribute values should not contain spaces at all.
+```
+<h1 id="main-heading">Main heading</h1>
+```
+- class attribute value does not need to be unique and can contain spaces.
+```
+<div class="box"></div>
+# type of class
+<div class="box red-box"></div>
+```
+- Multi[le Classes with help of CSS
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colored boxes example</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="box red-box"></div>
+    <div class="box blue-box"></div>
+    <div class="box red-box"></div>
+    <div class="box blue-box"></div>
+  </body>
+</html>
 
+:- style.css
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.red-box {
+  background-color: red;
+}
+
+.blue-box {
+  background-color: blue;
+}
+```
