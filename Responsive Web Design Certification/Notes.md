@@ -269,6 +269,7 @@ Input              Output
 </body>
 ```
 <img width="620" height="350" alt="Screenshot 2026-06-18 154312" src="https://github.com/user-attachments/assets/ce9ea2d4-66cb-4d6f-a700-246778d16d95" />
+
 - script element to link to an external JavaScript file:
 ```
 <script src="path-to-javascript-file.js"></script>
