@@ -173,6 +173,8 @@ stylesheet: Imports an external CSS file to style the webpage
 - **id attribute** adds a unique identifier to an HTML element.
 ```
 <h1 id="title">Movie Review Page</h1>
+OR
+<div class="card" id="sally-adventure-book">
 ```
 ```
 <!DOCTYPE html>
@@ -267,3 +269,11 @@ Input              Output
 </body>
 ```
 <img width="620" height="350" alt="Screenshot 2026-06-18 154312" src="https://github.com/user-attachments/assets/ce9ea2d4-66cb-4d6f-a700-246778d16d95" />
+- script element to link to an external JavaScript file:
+```
+<script src="path-to-javascript-file.js"></script>
+```
+- **button element** is used to create clickable buttons on a webpage.      Buttons are interactive elements that users can click to perform actions.
+```
+<button class="btn">Buy Now</button>
+```
