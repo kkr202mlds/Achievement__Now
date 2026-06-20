@@ -285,3 +285,12 @@ Input              Output
   content="Discover expert tips and techniques for gardening in small spaces, choosing the right plants, and maintaining a thriving garden."
 />
 ```
+- 4 Open Graph property Tags
+  1. title
+-  The content attribute is where you will write the title you want displayed for social media sites.
+```
+<meta content="freeCodeCamp.org" property="og:title" />
+```
+  2. s
+  3. s
+  4. 
