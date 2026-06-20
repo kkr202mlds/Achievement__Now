@@ -285,12 +285,22 @@ Input              Output
   content="Discover expert tips and techniques for gardening in small spaces, choosing the right plants, and maintaining a thriving garden."
 />
 ```
-- 4 Open Graph property Tags
-  1. title
+- 4 Open Graph(OG) property Tags
+- 1. title
 -  The content attribute is where you will write the title you want displayed for social media sites.
 ```
 <meta content="freeCodeCamp.org" property="og:title" />
 ```
-  2. s
-  3. s
-  4. 
+- 2. type
+```
+<meta property="og:type" content="website" />
+```
+- 3. image - at least 1200 by 630 px and minimum are 600 by 315 pixel.
+```
+<meta content="https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png" property="og:image"/>
+```
+- 4. url
+```
+<meta property="og:url" content="https://www.freecodecamp.org" />
+```
+- more OG properties that you can set, like description, audio, video and locale. 
