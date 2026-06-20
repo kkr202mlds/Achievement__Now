@@ -315,6 +315,7 @@ Input              Output
 - controls attribute enables users to manage audio playback, including pausing or resuming playback.
 - **loop attribute** is a boolean attribute that makes the audio replay continuously.
 <img width="320" height="120" alt="Screenshot 2026-06-20 183407" src="https://github.com/user-attachments/assets/626e51ab-77be-4ce4-8805-75580569832d" />
+
 ```
 <audio
   src="https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3"
