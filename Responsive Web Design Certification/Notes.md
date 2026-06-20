@@ -304,4 +304,15 @@ Input              Output
 <meta property="og:url" content="https://www.freecodecamp.org" />
 ```
 - more OG properties that you can set, like description, audio, video and locale.
-#### **audio and video elements tag** allow you to add sound and video content to your HTML documents. The audio element supports popular audio formats like mp3, wav, and ogg. The video element supports mp4, ogg, and webm formats.
+#### audio and video elements tag allow you to add sound and video content to your HTML documents. The audio element supports popular audio formats like mp3, wav, and ogg. The video element supports mp4, ogg, and webm formats.
+```
+<audio src="https://cdn.freecodecamp.org/curriculum/js-music-player/cruising-for-a-musing.mp3"></audio>
+```
+- **control attribute** - (boolean attribute) to see the audio player on the page, then you can add the audio element with the controls attribute.
+```
+<audio src="https://cdn.freecodecamp.org/curriculum/js-music-player/never-not-favored.mp3" controls></audio>
+```
+- controls attribute enables users to manage audio playback, including pausing or resuming playback.
+- **loop attribute** is a boolean attribute that makes the audio replay continuously.
+<img width="100" height="94" alt="Screenshot 2026-06-20 183407" src="https://github.com/user-attachments/assets/626e51ab-77be-4ce4-8805-75580569832d" />
+
