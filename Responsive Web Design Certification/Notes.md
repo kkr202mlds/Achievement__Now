@@ -285,13 +285,13 @@ Input              Output
   content="Discover expert tips and techniques for gardening in small spaces, choosing the right plants, and maintaining a thriving garden."
 />
 ```
-- 4 Open Graph(OG) property Tags
-- 1. title
+- 4 Open Graph(OG) property Tags - to set how your website's content will be seen on different social media platforms.
+- 1. title -  title of your web page content share
 -  The content attribute is where you will write the title you want displayed for social media sites.
 ```
 <meta content="freeCodeCamp.org" property="og:title" />
 ```
-- 2. type
+- 2. type - the type of content used for your web page share
 ```
 <meta property="og:type" content="website" />
 ```
@@ -303,4 +303,5 @@ Input              Output
 ```
 <meta property="og:url" content="https://www.freecodecamp.org" />
 ```
-- more OG properties that you can set, like description, audio, video and locale. 
+- more OG properties that you can set, like description, audio, video and locale.
+#### **audio and video elements tag** allow you to add sound and video content to your HTML documents. The audio element supports popular audio formats like mp3, wav, and ogg. The video element supports mp4, ogg, and webm formats.
