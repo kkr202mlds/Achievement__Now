@@ -315,4 +315,60 @@ Input              Output
 - controls attribute enables users to manage audio playback, including pausing or resuming playback.
 - **loop attribute** is a boolean attribute that makes the audio replay continuously.
 <img width="320" height="120" alt="Screenshot 2026-06-20 183407" src="https://github.com/user-attachments/assets/626e51ab-77be-4ce4-8805-75580569832d" />
-
+```
+<audio
+  src="https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3"
+  loop
+  controls
+></audio>
+```
+- **muted attribute** : boolean attribute will start the audio in a muted state.
+- **source elements** : browser will select the first source that it understands.
+```
+<audio controls>
+  <source src="audio.ogg" type="audio/ogg" />
+  <source src="audio.wav" type="audio/wav" />
+  <source src="audio.mp3" type="audio/mpeg" />
+</audio>
+```
+- video elements tag
+- **autoplay attribute** to the opening video tag so the video plays automatically.
+- **width attribute** is being used here to make the video smaller and fit better in the preview window.
+```
+<video
+  src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+  loop
+  controls
+  muted
+  width="400"
+></video>
+```
+- **poster attribute** : you wanted to display an image while the video is downloading.
+```
+<video
+  src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+  loop
+  controls
+  muted
+  poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
+  width="400"
+></video>
+```
+- source element inside a video element, just like you did with the audio element, the same video in multiple formats.
+```
+<video
+  controls
+  width="400"
+  poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
+>
+  <source
+    src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+    type="video/mp4"
+  />
+  <source
+    src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.webm"
+    type="video/webm"
+  />
+  Your browser does not support the video tag.
+</video>
+```
