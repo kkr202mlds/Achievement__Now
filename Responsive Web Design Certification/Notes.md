@@ -386,10 +386,33 @@ Input              Output
 <img width="106" height="108" alt="Screenshot 2026-06-21 171152" src="https://github.com/user-attachments/assets/ea6e45f8-2d2d-4aac-8fd4-f73a5fc93b7c" />
 
 - sites like Pixabay and Unsplash, which offer free-to-use images, Creative Commons 0 license are considered public domain and permissive license, like a Creative Commons license, or the BSD license.
-- **svg element tag** is the container for the whole drawing. It sets up the space where all the shapes appear. 
+- **svg element tag** is the container for the whole drawing. It sets up the space where all the shapes appear. width and height attributes.
+- **viewBox attribute** controls what part of the image is visible inside the SVG
 - **circle element tag** is used to make the face and the eyes. One large circle forms the yellow face, and two smaller circles make the eyes.
 - **path element tag** is used to draw the smile. It creates a curved line for the mouth.
 - update the value for the **fill attribute tag** to any named color like red, green, blue, yellow, etc.
 <img width="172" height="63" alt="Screenshot 2026-06-21 171607" src="https://github.com/user-attachments/assets/480e5748-8fd7-46f6-ab94-0235db30b7b4" />
 
-- 
+- **replaced element** is an element whose content is determined by an external resource rather than by CSS itself like <img>, <video>, <iframe> & <input type="image">
+- The layout or positioning style in a replaced element.
+- **<input type="image">**: a graphical submit button for web forms.
+```
+<img src="example-img-url" alt="Descriptive text goes here">
+```
+- **Inline Frame <iframe>**: Embed external content, such as videos, maps, or other web pages, directly into a parent webpage.
+```
+<iframe width="400" height="200" src="https://www.youtube.com/embed/u43gJJrVa1I?si=BoDW_puFsy8OEr_Z" title="Professional Cloud Architect Certification Course – Pass the Exam! (YouTube video)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+```
+<iframe
+  title="Map of the Royal Observatory, Greenwich, London"
+  width="300"
+  height="200"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&amp;layer=mapnik">
+</iframe>
+```
+```
+<input type="image" alt="Descriptive text goes here" src="example-img-url">
+```
+- **Not Replaced Elements** : input types like text, or email.
+- **cascading stylesheets CSS**, is used to add styles to a web page. Common examples of replaced elements include the image, iframe, and video elements.
