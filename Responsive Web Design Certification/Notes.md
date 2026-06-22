@@ -373,3 +373,23 @@ Input              Output
   Your browser does not support the video tag.
 </video>
 ```
+- Common image formats like PNG(**lossless quality**)  and JPG(**loss quality**) are classified as **raster formats**.
+- **Scalable Vector Graphic(SVG) no-loss quality** a vector graphic tracks data (store in XML) based on paths and equations to plot points, lines, and curves can be scaled to any size without impacting the quality.
+```
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="45" stroke="black" stroke-width="4" fill="green" />
+  <circle cx="35" cy="40" r="5" fill="black" />
+  <circle cx="65" cy="40" r="5" fill="black" />
+  <path d="M35 65 Q50 80 65 65" stroke="black" stroke-width="4" fill="transparent" />
+</svg>
+```
+<img width="106" height="108" alt="Screenshot 2026-06-21 171152" src="https://github.com/user-attachments/assets/ea6e45f8-2d2d-4aac-8fd4-f73a5fc93b7c" />
+
+- sites like Pixabay and Unsplash, which offer free-to-use images, Creative Commons 0 license are considered public domain and permissive license, like a Creative Commons license, or the BSD license.
+- **svg element tag** is the container for the whole drawing. It sets up the space where all the shapes appear. 
+- **circle element tag** is used to make the face and the eyes. One large circle forms the yellow face, and two smaller circles make the eyes.
+- **path element tag** is used to draw the smile. It creates a curved line for the mouth.
+- update the value for the **fill attribute tag** to any named color like red, green, blue, yellow, etc.
+<img width="172" height="63" alt="Screenshot 2026-06-21 171607" src="https://github.com/user-attachments/assets/480e5748-8fd7-46f6-ab94-0235db30b7b4" />
+
+- 
