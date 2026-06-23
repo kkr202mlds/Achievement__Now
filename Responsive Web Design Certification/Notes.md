@@ -416,3 +416,44 @@ Input              Output
 ```
 - **Not Replaced Elements** : input types like text, or email.
 - **cascading stylesheets CSS**, is used to add styles to a web page. Common examples of replaced elements include the image, iframe, and video elements.
+- **allowfullscreen attribute** allows the user to display the iframe in full screen mode.
+- **allow attribute** lets you define what an iframe can or can't do. This is called an allowlist.
+- **clipboard-write value** to it allows the embedded page to write items to your clipboard
+- **accelerometer** use motion sensors so it can detect things like device tilting and rotation
+```
+<iframe
+  width="400"
+  height="400"
+  src="https://www.youtube.com/embed/PkZNo7MFNFg?si=-UBVIUNM3csdeiWF"
+  title="Learn JavaScript - Full Course for Beginners (YouTube video)"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>
+```
+```
+<h1>A Map from Openstreetmap.org Embedded with the iframe Element</h1>
+
+<iframe
+  width="425"
+  height="350"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=3.006134033203125%2C6.150112578753815%2C3.6357879638671875%2C6.749850810550778&amp;layer=mapnik"
+  title="Map of Lagos area, Nigeria"
+  style="border: 1px solid black"
+>
+</iframe>
+<br />
+<small>
+  <a href="https://www.openstreetmap.org/#map=11/6.4501/3.3210">
+    View Larger Map
+  </a>
+</small>
+```
+- **srcdoc attribute** location want to embed direct HTML.
+- Anchor Target Attribute Types:-
+1. _self, which is the default value. This opens the link in the current browsing context. In most cases, this will be the current tab or window.
+2.  _blank, which opens the link in a new browsing context. Typically, this will open in a new tab. But some users might configure their browsers to open a new window instead.
+3.  _parent, which opens the link in the parent of the current context. For example, if your website has an iframe, a _parent value in that iframe would open in your website's tab/window, not in the embedded frame.
+4.  _top, which opens the link in the top-most browsing context - think "the parent of the parent". This is similar to _parent, but the link will always open in the full browser tab/window, even for nested embedded frames.
+- four important possible values for this attribute
+5.  _unfencedTop, which is currently used for the experimental FencedFrame API. At the time of this lesson, you probably won't have a reason to use this one yet.
