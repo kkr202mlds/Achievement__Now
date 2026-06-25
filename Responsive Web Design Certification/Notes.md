@@ -17,6 +17,13 @@ image element with a src attribute and alt attribute
 ```
 - HTML is made up of elements. The first one you will use is the h1 element.
 - An **`<h1>` element** is the main heading of a webpage and you should only use one per page. h2 elements represent subheadings.
+- Semantics are the meaning of words, or phrases, in a language. semantic meaning of a p element, for example, is a paragraph of text.
+```
+<p>
+  Let me tell you about my fantastic holiday in Paris.
+  I saw the impressive Eiffel Tower up close!
+</p>
+```
 - When you need to add a paragraph to a webpage, you can use the p element.
 - HTML represents the blocks, concrete, and irons that make up the walls. It's the foundation that makes the building strong. **CSS** represents the interior and exterior design that makes the house look beautiful. **JavaScript** represents the electrical and water system that ensures uninterrupted access to water and electricity.
 ```
@@ -155,7 +162,7 @@ stylesheet: Imports an external CSS file to style the webpage
   <p>Example paragraph element.</p>
 </div>
 ```
-- **section element** has semantic meaning over the **div element** which is not semantic.
+- **<section>** & **<p>** has semantic meaning over the **<div>t** which is not semantic.
 - Semantics are the meaning of words or phrases in a language. In HTML, which is a language, elements have their own semantic meaning too.
 ```
 <section>
@@ -568,5 +575,7 @@ a:active {
   color: black;
 }
 ```
+- **<nav> element** represents a section of a webpage designed specifically to hold major navigation links.
 <img width="183" height="58" alt="Screenshot 2026-06-24 144110" src="https://github.com/user-attachments/assets/8498d76e-5039-4f6a-8809-30041fd2472e" />
 
+- 
