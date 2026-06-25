@@ -516,7 +516,7 @@ a:visited {
 }
 ```
 <img width="196" height="50" alt="Screenshot 2026-06-24 143559" src="https://github.com/user-attachments/assets/a3906ac3-116e-42f5-bd0b-4dc5a9731b88" />
-
+<img width="185" height="56" alt="Screenshot 2026-06-24 143525" src="https://github.com/user-attachments/assets/eed46387-a160-4b6f-9548-c5d2448002bd" />
 
 3. **:hover** : This state applies when a user is hovering their cursor over a link.
 ```
@@ -533,7 +533,7 @@ a:hover {
   color: red;
 }
 ```
-<img width="185" height="56" alt="Screenshot 2026-06-24 143525" src="https://github.com/user-attachments/assets/eed46387-a160-4b6f-9548-c5d2448002bd" />
+
 
 4. **:focus** : This state applies when we focus on a link.
 ```
