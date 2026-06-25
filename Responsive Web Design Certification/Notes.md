@@ -577,4 +577,50 @@ a:active {
 ```
 <img width="183" height="58" alt="Screenshot 2026-06-24 144110" src="https://github.com/user-attachments/assets/8498d76e-5039-4f6a-8809-30041fd2472e" />
 
-- **`<nav>` element** represents a section of a webpage designed specifically to hold major navigation links.
+- **`<nav>` navigation section element** represents a section of a webpage designed specifically to hold major navigation links.
+```
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+</nav>
+```
+- **`<article>` element** represents a self-contained, independent composition within a document, page, or site that is intended to be independently distributable or reusable.
+```
+<article>
+  <h2>Understanding Semantic HTML</h2>
+  <p>Semantic tags help search engines and screen readers understand page structure.</p>
+</article>
+```
+- `<article>` Reusable, self-contained units of content.
+- `<section>` Theme-based grouping of related content.
+- `<div>` Purely a layout container for CSS styling.
+#### Presentational HTML 
+- focuses on the appearance and style of the content. In the early days of HTML, developers would use elements like the center, big, and font elements.
+- modern web development you shouldn't use these types of elements, because of their limitations and negative impact on accessibility and maintainability.
+##### deprecated element
+- **font element** is a deprecated element used to set the font size and color of the text.
+```
+<font size="5" color="blue">This text is blue and large.</font>
+```
+- **center element** is another deprecated element that is used to center the content horizontally within its container.
+```
+<center>
+  This text is centered.
+  <p>HTML is awesome.</p>
+</center>
+
+<p>Another example text.</p>
+```
+- **big element** is another deprecated presentational HTML element that makes the enclosed text one level bigger than its surrounding text.
+```
+<p>
+  This text has a normal font size.
+  <big>This text is larger.</big>
+  Some other text.
+</p>
+```
+#### Semantic HTML
+- It is now the recommended practice. It describes the content of the elements, so it's much easier to read, understand, and maintain.
+
