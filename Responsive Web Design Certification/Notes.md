@@ -575,7 +575,6 @@ a:active {
   color: black;
 }
 ```
-- **`<nav>` element** represents a section of a webpage designed specifically to hold major navigation links.
 <img width="183" height="58" alt="Screenshot 2026-06-24 144110" src="https://github.com/user-attachments/assets/8498d76e-5039-4f6a-8809-30041fd2472e" />
 
-- 
+- **`<nav>` element** represents a section of a webpage designed specifically to hold major navigation links.
