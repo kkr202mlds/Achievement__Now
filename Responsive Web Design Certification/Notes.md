@@ -139,7 +139,8 @@ stylesheet: Imports an external CSS file to style the webpage
 ```
 -  **`<em>` emphasis element tag** : To place emphasis on a specific word or phrase.
 -  **`<strong>` element tag** : is used to indicate that some text is of strong importance or urgent.
--  **`<footer>` element tag** : is used to define a footer for a document or section. A footer typically contains information about the author of the document, copyright data, links to terms of use, contact information, and more.
+-  **`<footer>` element tag** : is used to define a footer for a document or section in bottom. A footer typically contains information about the author of the document, copyright data, links to terms of use, contact information, and usually contains copyright information
+-  
 ```
 <main>
 </main>
@@ -200,7 +201,7 @@ OR
 ```
 <h1 id="main-heading">Main heading</h1>
 ```
-- **class attribute** value does not need to be unique and can contain spaces.
+- **class attribute** value does not need to be unique and can contain spaces and to group elements for styling and behavior.
 ```
 <div class="box"></div>
 # type of class
@@ -457,3 +458,113 @@ Input              Output
 4.  _top, which opens the link in the top-most browsing context - think "the parent of the parent". This is similar to _parent, but the link will always open in the full browser tab/window, even for nested embedded frames.
 - four important possible values for this attribute
 5.  _unfencedTop, which is currently used for the experimental FencedFrame API. At the time of this lesson, you probably won't have a reason to use this one yet.
+- Anchor path(src) types:
+1. absolute path is a complete link to a resource. It starts from the root directory, includes every other directory, and finally the filename and extension.
+- link to a resource available only on the internet
+```
+<p>
+  Read more on the
+  <a
+    href="/Users/user/Desktop/fCC/script-code/absolute-vs-relative-paths/pages/about.html"
+OR
+    href-"file:///Users/user/Desktop/fCC/script-code/absolute-vs-relative-paths/pages/about.html"
+    >About Page</a
+    >
+</p>
+```
+- if the resource is on the web protocol - which could be http, https, and file and the domain name.
+```
+<a href="https://design-style-guide.freecodecamp.org/img/fcc_secondary_small.svg">
+  View fCC Logo
+</a>
+```
+2. relative path specifies the location of a file relative to the directory of the current file. It does not include the protocol or the domain name
+-  to ensure links work without an internet connection
+```
+<p>
+  Read more on the
+  <a href="about.html">About Page</a>
+</p>
+```
+- **"/"** slash is known as the "path separator", single dot points to the current directory and two dots point to the parent directory.
+- Different Link States
+1. **:link** : This state represents a link which the user has not visited, clicked, or interacted with yet.
+```
+<a href="https://freecodecamp.org" target="_blank">Visit freeCodeCamp</a>
+
+# style.css
+a:active {
+  color: black;
+}
+```
+<img width="196" height="50" alt="Screenshot 2026-06-24 143559" src="https://github.com/user-attachments/assets/a3906ac3-116e-42f5-bd0b-4dc5a9731b88" />
+
+
+2. **:visited** : which applies when a user has already visited the page being linked to. By default, this turns the link purple.
+```
+<head>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <a href="https://freecodecamp.org" target="_blank">Visit freeCodeCamp</a>
+</body>
+
+# style.css
+a:visited {
+  color: brown;
+}
+```
+<img width="185" height="56" alt="Screenshot 2026-06-24 143525" src="https://github.com/user-attachments/assets/eed46387-a160-4b6f-9548-c5d2448002bd" />
+
+
+3. **:hover** : This state applies when a user is hovering their cursor over a link.
+```
+<head>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <a href="https://freecodecamp.org" target="_blank">Visit freeCodeCamp</a>
+</body>
+
+# style.css
+a:hover {
+  color: red;
+}
+```
+4. **:focus** : This state applies when we focus on a link.
+```
+<head>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <a href="https://freecodecamp.org" target="_blank">Visit freeCodeCamp</a>
+</body>
+
+# style.css
+a:focus {
+  color: green;
+}
+```
+<img width="187" height="53" alt="Screenshot 2026-06-24 144042" src="https://github.com/user-attachments/assets/34216c37-56f3-471d-ac47-738a00777f55" />
+
+
+5. **:active** : This state applies to links that are being activated by the user.
+```
+<head>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <a href="https://freecodecamp.org" target="_blank">Visit freeCodeCamp</a>
+</body>
+
+# style.css
+a:active {
+  color: black;
+}
+```
+<img width="183" height="58" alt="Screenshot 2026-06-24 144110" src="https://github.com/user-attachments/assets/8498d76e-5039-4f6a-8809-30041fd2472e" />
+
