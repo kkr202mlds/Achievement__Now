@@ -621,6 +621,29 @@ a:active {
   Some other text.
 </p>
 ```
-#### Semantic HTML
+#### Semantic HTML `<strong> <article> <figure> <figcaption> <main> <nav> <section> <footer> <header> <form>`
 - It is now the recommended practice. It describes the content of the elements, so it's much easier to read, understand, and maintain.
-
+- **idiomatic text element `<i>`** was originally used for presentational purposes to display the text in italics.
+```
+<p>There is a certain <i lang="fr">je ne sais quoi</i> in the air.</p>
+```
+- emphasis element
+```
+<p>
+  Never give up on <em>your</em> dreams.
+</p>
+```
+- Use CSS instead of the i or em elements -> When you want to display text in italics for presentational purposes only.
+- primary difference between i and em -> There is no difference; they both emphasize text.
+i indicates that the text differs from the surrounding content, while em emphasizes important text.
+- **bring attention to element `<b>`** is commonly used to highlight keywords in summaries, or product names in reviews.
+```
+<p>
+  We tested several products, including the <b>SuperSound 3000</b> for audio
+  quality, the <b>QuickCharge Pro</b> for fast charging, and the
+  <b>EcoClean Vacuum</b> for cleaning. The first two performed well, but the
+  <b>EcoClean Vacuum</b> did not meet expectations.
+</p>
+```
+- To emphasize the importance of the text, you should use the strong element instead of the b element.
+- 
