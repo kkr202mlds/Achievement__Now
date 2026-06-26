@@ -596,7 +596,7 @@ a:active {
 - `<article>` Reusable, self-contained units of content.
 - `<section>` Theme-based grouping of related content.
 - `<div>` Purely a layout container for CSS styling.
-#### Presentational HTML 
+#### Presentational HTML <b> <i> <em> <s> <strike> <s> <del> <center> <font> <big> <small> <tt>
 - focuses on the appearance and style of the content. In the early days of HTML, developers would use elements like the center, big, and font elements.
 - modern web development you shouldn't use these types of elements, because of their limitations and negative impact on accessibility and maintainability.
 ##### deprecated element
