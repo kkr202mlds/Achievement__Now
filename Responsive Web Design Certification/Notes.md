@@ -156,11 +156,31 @@ stylesheet: Imports an external CSS file to style the webpage
   </footer>
 </body>
 ```
+##### Non-Semantic elements `div` `<span>`
 - **Div Elements** is used as a container to group other elements. When grouping related content for styling purposes CSS.
 ```
 <div>
   <p>Example paragraph element.</p>
 </div>
+```
+- **span element `<span>`** is a generic inline container used to group phrasing content for styling or scripting purposes
+```
+<head>
+    <title>my web page</title>
+    <style type="text/css">
+        span {
+            color: green;
+            font-size: 40px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>GeeksForGeeks</span> <br>
+        A computer science portal for geeks
+    </div>
+</body>
 ```
 - **<section>** & **<p>** has semantic meaning over the **<div>t** which is not semantic.
 - Semantics are the meaning of words or phrases in a language. In HTML, which is a language, elements have their own semantic meaning too.
