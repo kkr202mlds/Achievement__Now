@@ -182,7 +182,7 @@ stylesheet: Imports an external CSS file to style the webpage
     </div>
 </body>
 ```
-- **<section>** & **<p>** has semantic meaning over the **<div>t** which is not semantic.
+- **`<section>`** & **`<p>`** has semantic meaning over the **`<div>`** which is not semantic.
 - Semantics are the meaning of words or phrases in a language. In HTML, which is a language, elements have their own semantic meaning too.
 ```
 <section>
