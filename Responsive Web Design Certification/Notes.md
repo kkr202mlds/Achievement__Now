@@ -620,11 +620,11 @@ a:active {
 - focuses on the appearance and style of the content. In the early days of HTML, developers would use elements like the center, big, and font elements.
 - modern web development you shouldn't use these types of elements, because of their limitations and negative impact on accessibility and maintainability.
 ##### deprecated element
-- **font element** is a deprecated element used to set the font size and color of the text.
+- **`<font>` element** is a deprecated element used to set the font size and color of the text.
 ```
 <font size="5" color="blue">This text is blue and large.</font>
 ```
-- **center element** is another deprecated element that is used to center the content horizontally within its container.
+- **`<center>` element** is another deprecated element that is used to center the content horizontally within its container.
 ```
 <center>
   This text is centered.
@@ -633,7 +633,7 @@ a:active {
 
 <p>Another example text.</p>
 ```
-- **big element** is another deprecated presentational HTML element that makes the enclosed text one level bigger than its surrounding text.
+- **`<big>` element** is another deprecated presentational HTML element that makes the enclosed text one level bigger than its surrounding text.
 ```
 <p>
   This text has a normal font size.
@@ -691,6 +691,41 @@ i indicates that the text differs from the surrounding content, while em emphasi
 <img width="312" height="78" alt="Screenshot 2026-06-27 144943" src="https://github.com/user-attachments/assets/eddd5db3-eca7-450b-8dd7-5f603b9dc810" />
 
 - **citation element `<cite>`** is an HTML element that you can use to mark up the title of a referenced creative work like a book article, song, film, website, or research paper.
-- 
+- **`<q>` tag** defines a short, inline quotation vs **`<blockquote>` tag** block quotes for extended quotations from other sources
+```
+<p>As Quincy Larson said,
+  <q cite="https://www.freecodecamp.org/news/learn-to-code-book/">Momentum is everything.</q></p>
+```
+<img width="350" height="80" alt="Screenshot 2026-06-27 150522" src="https://github.com/user-attachments/assets/2317900f-bd37-4516-8399-3d9bf62f8d05" />
+
+- An acronym is a word formed from the initial letters of a phrase, with each letter representing the first letter of a word in that phrase.
+- initialism is formed from the initial letters of a phrase, with each letter representing the first letter of a word in that phrase.
+```
+<p><abbr title="HyperText Markup Language">HTML</abbr> is the foundation of the web.</p>
+```
+- **contact `<address>` element** is used to represent contact information for a section on a web page.
+- **line break element `<br>`** is used to show the division between the text.
+- **href value = tel:+ value** creates a clickable link to initiate a telephone numbers & **href value = mailto link** are used in HTML documents to allow users to open a new email & users often perceive it as spam.
+```
+<address>
+  <h2>Company Name</h2>
+  <p>
+    1234 Elm Street<br />
+    Springfield, IL 62701<br />
+    United States
+  </p>
+  <p>Phone: <a href="tel:+15555555555">+1 (555) 555-5555</a></p>
+  <p>Email: <a href="mailto:contact@company.com">contact@company.com</a></p>
+</address>
+```
+- **`<time>` element** is used to represent a specific moment in time. `YYYY-MM-DDTHH:MM:SS`
+- **datetime attribute** is used to translate dates and times into a machine-readable format.
+- **capital T** in the value is a separator between the date and time.
+```
+<p>
+  The graduation will be on <time datetime="2024-06-15T15:00">June 15</time>
+</p>
+```
+- &mdash; is an HTML entity that represents an em dash —.
 
 
