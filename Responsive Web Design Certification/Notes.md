@@ -666,4 +666,31 @@ i indicates that the text differs from the surrounding content, while em emphasi
 </p>
 ```
 - To emphasize the importance of the text, you should use the strong element instead of the b element.
+- **3  description lists**
+- **description list element `<dl>`** is the container for the entire list. You can see it wraps around all the other elements of the description list in the example.
+- **description term element `<dt>`** to specify a term in description list.
+- **description details element `<dd>`** for the description, or details associated with that term in description list.
+```
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+  <!-- <dt>JS</dt>
+  <dd>JavaScript</dd> -->
+</dl>
+```
+-  use cases for description lists include product specifications, frequently asked questions, contact information, and metadata.
+-  **block quotation element `<blockquote>`** are used to distinguish quoted text from the surrounding content. This gives the quoted text a format that is easy to identify.
+-  **cite attribute** : URL address of quote source.
+```
+<blockquote cite="https://www.freecodecamp.org/news/learn-to-code-book/">
+  <p>Build your projects. Show them to your friends. Build projects for your friends.</p>
+</blockquote>
+```
+<img width="312" height="78" alt="Screenshot 2026-06-27 144943" src="https://github.com/user-attachments/assets/eddd5db3-eca7-450b-8dd7-5f603b9dc810" />
+
+- **citation element `<cite>`** is an HTML element that you can use to mark up the title of a referenced creative work like a book article, song, film, website, or research paper.
 - 
+
+
