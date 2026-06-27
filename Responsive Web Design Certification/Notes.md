@@ -690,12 +690,6 @@ i indicates that the text differs from the surrounding content, while em emphasi
 ```
 <img width="312" height="78" alt="Screenshot 2026-06-27 144943" src="https://github.com/user-attachments/assets/eddd5db3-eca7-450b-8dd7-5f603b9dc810" />
 
-<center>
-
-![Alt text](https://github.com/user-attachments/assets/eddd5db3-eca7-450b-8dd7-5f603b9dc810)
-
-</center>
-
 - **citation element `<cite>`** is an HTML element that you can use to mark up the title of a referenced creative work like a book article, song, film, website, or research paper.
 - 
 
