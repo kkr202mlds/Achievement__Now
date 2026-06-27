@@ -726,6 +726,55 @@ i indicates that the text differs from the surrounding content, while em emphasi
   The graduation will be on <time datetime="2024-06-15T15:00">June 15</time>
 </p>
 ```
-- &mdash; is an HTML entity that represents an em dash —.
+- `&mdash;` is an HTML entity that represents an em dash —.
+- **superscript element `<sub>`** is used to display a piece of text as a superscript is a symbol or letter printed above the normal line of text.
+```
+<p>2<sup>2</sup> (2 squared) is 4.</p>
+```
+<img width="167" height="48" alt="Screenshot 2026-06-27 161618" src="https://github.com/user-attachments/assets/ec0a8fb5-f554-4624-960f-16f7859fb9f4" />
+
+- **subscript element `<sub>`** uses a subscript which displays a lowered baseline using smaller text.
+```
+<p>CO<sub>2</sub></p>
+```
+<img width="50" height="39" alt="Screenshot 2026-06-27 161827" src="https://github.com/user-attachments/assets/caf8ba6a-1969-4b71-b530-3450facdc8b7" />
+
+- **inline `<code>` element** is used to represent short snippets of code inside text.
+```
+<p>
+  To set the text color to blue in CSS, use the following code:
+  <code>color: blue;</code>
+</p>
+```
+<img width="368" height="58" alt="Screenshot 2026-06-27 162335" src="https://github.com/user-attachments/assets/ff66c4fc-7da4-437d-8539-071b174cf8b8" />
 
 
+- **`<pre>` element** you will need to be mindful of spacing.
+```
+<pre>
+  <code>
+    body {
+      color: red;
+    }
+  </code>
+</pre>
+```
+<img width="213" height="96" alt="Screenshot 2026-06-27 162342" src="https://github.com/user-attachments/assets/cec182cd-6826-4dcf-9204-a6067252a36c" />
+
+- **unarticulated annotation element `<u>`**` for short, is used to represent inline text that has non-textual annotation applied.
+```
+<p>
+  You can use the unarticulated annotation element to highlight
+  <u>inccccort</u> <u>spling</u> <u>issses</u>.
+</p>
+```
+- **strikethrough element `<s>`** for short, should be used to represent when text is no longer accurate or relevant, cancellation of an activity.
+```
+<p><s>Tomorrow's hike will be meeting at noon.</s></p>
+```
+- **`<ruby>` element** to show the pronunciation of East Asian characters.
+- **`<rp>` ruby fallback parenthesis element** is used as a fallback for browsers lacking support for displaying ruby annotations.
+- **`<rt>` ruby text element** is used to indicate text for the ruby annotation.
+```
+<ruby> 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp> </ruby>
+```
