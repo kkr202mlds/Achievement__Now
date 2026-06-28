@@ -596,6 +596,7 @@ a:active {
 }
 ```
 <img width="183" height="58" alt="Screenshot 2026-06-24 144110" src="https://github.com/user-attachments/assets/8498d76e-5039-4f6a-8809-30041fd2472e" />
+
 #### Presentational HTML `<b> <i> <em> <s> <strike> <s> <del> <center> <font> <big> <small> <tt>`
 - focuses on the appearance and style of the content. In the early days of HTML, developers would use elements like the center, big, and font elements.
 - modern web development you shouldn't use these types of elements, because of their limitations and negative impact on accessibility and maintainability.
