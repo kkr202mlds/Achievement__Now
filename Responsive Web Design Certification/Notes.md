@@ -156,7 +156,7 @@ stylesheet: Imports an external CSS file to style the webpage
   </footer>
 </body>
 ```
-##### Non-Semantic elements `div` `<span>`
+#### Non-Semantic elements `<div> <span>`
 - **Div Elements** is used as a container to group other elements. When grouping related content for styling purposes CSS.
 ```
 <div>
@@ -597,10 +597,10 @@ a:active {
 ```
 <img width="183" height="58" alt="Screenshot 2026-06-24 144110" src="https://github.com/user-attachments/assets/8498d76e-5039-4f6a-8809-30041fd2472e" />
 
-#### Presentational HTML `<b> <i> <em> <s> <strike> <s> <del> <center> <font> <big> <small> <tt>`
+### Presentational HTML `<b> <i> <em> <s> <strike> <s> <del> <center> <font> <big> <small> <tt>`
 - focuses on the appearance and style of the content. In the early days of HTML, developers would use elements like the center, big, and font elements.
 - modern web development you shouldn't use these types of elements, because of their limitations and negative impact on accessibility and maintainability.
-##### deprecated element
+#### deprecated element
 - **`<font>` element** is a deprecated element used to set the font size and color of the text.
 ```
 <font size="5" color="blue">This text is blue and large.</font>
@@ -622,7 +622,7 @@ a:active {
   Some other text.
 </p>
 ```
-#### Semantic HTML `<strong> <article> <figure> <figcaption> <main> <nav> <section> <footer> <header> <form>`
+### Semantic HTML `<strong> <article> <figure> <figcaption> <main> <nav> <section> <footer> <header> <form>`
 - It is now the recommended practice. It describes the content of the elements, so it's much easier to read, understand, and maintain.
 - **`<nav>` navigation section element** represents a section of a webpage designed specifically to hold major navigation links.
 ```
@@ -648,7 +648,7 @@ a:active {
 ```
 <p>There is a certain <i lang="fr">je ne sais quoi</i> in the air.</p>
 ```
-- emphasis element
+#### emphasis element
 ```
 <p>
   Never give up on <em>your</em> dreams.
