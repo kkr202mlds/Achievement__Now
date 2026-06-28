@@ -643,6 +643,7 @@ a:active {
 ```
 #### Semantic HTML `<strong> <article> <figure> <figcaption> <main> <nav> <section> <footer> <header> <form>`
 - It is now the recommended practice. It describes the content of the elements, so it's much easier to read, understand, and maintain.
+- **`<header>` element** is used to represent introductory content like page navigation and other introductory information
 - **idiomatic text element `<i>`** was originally used for presentational purposes to display the text in italics.
 ```
 <p>There is a certain <i lang="fr">je ne sais quoi</i> in the air.</p>
