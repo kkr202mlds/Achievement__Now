@@ -596,26 +596,6 @@ a:active {
 }
 ```
 <img width="183" height="58" alt="Screenshot 2026-06-24 144110" src="https://github.com/user-attachments/assets/8498d76e-5039-4f6a-8809-30041fd2472e" />
-
-- **`<nav>` navigation section element** represents a section of a webpage designed specifically to hold major navigation links.
-```
-<nav>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-  </ul>
-</nav>
-```
-- **`<article>` element** represents a self-contained, independent composition within a document, page, or site that is intended to be independently distributable or reusable.
-```
-<article>
-  <h2>Understanding Semantic HTML</h2>
-  <p>Semantic tags help search engines and screen readers understand page structure.</p>
-</article>
-```
-- `<article>` Reusable, self-contained units of content.
-- `<section>` Theme-based grouping of related content.
-- `<div>` Purely a layout container for CSS styling.
 #### Presentational HTML `<b> <i> <em> <s> <strike> <s> <del> <center> <font> <big> <small> <tt>`
 - focuses on the appearance and style of the content. In the early days of HTML, developers would use elements like the center, big, and font elements.
 - modern web development you shouldn't use these types of elements, because of their limitations and negative impact on accessibility and maintainability.
@@ -643,6 +623,25 @@ a:active {
 ```
 #### Semantic HTML `<strong> <article> <figure> <figcaption> <main> <nav> <section> <footer> <header> <form>`
 - It is now the recommended practice. It describes the content of the elements, so it's much easier to read, understand, and maintain.
+- **`<nav>` navigation section element** represents a section of a webpage designed specifically to hold major navigation links.
+```
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+</nav>
+```
+- **`<article>` element** represents a self-contained, independent composition within a document, page, or site that is intended to be independently distributable or reusable.
+```
+<article>
+  <h2>Understanding Semantic HTML</h2>
+  <p>Semantic tags help search engines and screen readers understand page structure.</p>
+</article>
+```
+- `<article>` Reusable, self-contained units of content.
+- `<section>` Theme-based grouping of related content.
+- `<div>` Purely a layout container for CSS styling.
 - **`<header>` element** is used to represent introductory content like page navigation and other introductory information
 - **idiomatic text element `<i>`** was originally used for presentational purposes to display the text in italics.
 ```
