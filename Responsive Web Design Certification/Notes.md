@@ -3,7 +3,7 @@
 left angle bracket (<), right angle bracket (>) &  forward slash (/)
 <opening tag>content</closing tag>
 ```
-- **Void Element** : Some HTML elements do not have a closing tag. These are known as void elements like img - image element
+- **Void Element** : Some HTML elements do not have a closing tag. These are known as void elements like img - `image element, input elements`
 ```
 <img />
 image element with a src attribute and alt attribute
@@ -778,4 +778,18 @@ i indicates that the text differs from the surrounding content, while em emphasi
 - **`<rt>` ruby text element** is used to indicate text for the ruby annotation.
 ```
 <ruby> 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp> </ruby>
+```
+- `<form>` element is used to gather user information, such as names and email addresses.
+```
+<form action="url-goes-here">
+  <!-- input elements go here -->
+</form>
+```
+- **action attribute** specifies where the form data will be sent upon submission.
+- **`<input>` element** To collect specific information, like names and email addresses.
+- input elements are void elements
+```
+<form action="">
+  <input type="text" />
+</form>
 ```
