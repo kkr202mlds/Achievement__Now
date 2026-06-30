@@ -787,9 +787,98 @@ i indicates that the text differs from the surrounding content, while em emphasi
 ```
 - **action attribute** specifies where the form data will be sent upon submission.
 - **`<input>` element** To collect specific information, like names and email addresses.
-- input elements are void elements
+- input elements are void elements.
+- **type attribute** defines the data type expected from the user.
 ```
 <form action="">
   <input type="text" />
 </form>
 ```
+- **`<label>` element** To add a label for the input.
+```
+<form action="">
+  <label>
+    Full Name:
+    <input type="text" />
+  </label>
+</form>
+```
+- **implicit association** between the label and the input field.
+- **implicit** to something that is understood or inferred without needing to be explicitly stated or defined with additional attributes or elements.
+- **for attribute** for an email address label.
+```
+<form action="">
+  <label for="email"> Email Address: </label>
+  <input type="email" id="email" />
+</form>
+```
+- **placeholder attribute** show additional hints to the users about the expected input
+```
+<form action="">
+  <label for="email"> Email Address: </label>
+  <input type="email" id="email" placeholder="example@email.com" />
+</form>
+```
+- **`<button>` element** : submitting a form, showing a modal, or toggling a side menu open and closed.
+- button element is used to perform a particular action when it is activated.
+- **type attribute** which controls the behavior of the button.
+- **Show Alert button** to see an alert pop up on the screen.
+```
+<button type="button">Show Alert</button>
+<script src="index.js"></script>
+```
+- **reset button** will clear out all of their input data
+```
+<form action="">
+  <label for="email">Email address:</label>
+  <input type="email" id="email" name="email" />
+  <button type="reset">Reset form</button>
+  <button type="submit">Submit form</button>
+</form>
+```
+- input elements are void elements
+```
+<input class="start-btn" type="button" value="Start Game" />
+<script src="index.js"></script>
+```
+- **required attribute** specifies that the user needs to fill out that portion of the form before it gets submitted.
+<img width="373" height="100" alt="Screenshot 2026-06-29 155245" src="https://github.com/user-attachments/assets/7f8acf57-93c5-411b-acf7-7a6f5261f033" />
+
+<img width="966" height="113" alt="Screenshot 2026-06-29 155434" src="https://github.com/user-attachments/assets/9dbbcf20-70db-4f4a-bac0-aea6dc735ba9" />
+
+- **minlength and maxlength attributes** are used to set the minimum and maximum length in characters for the email input.
+```
+<form action="">
+  <label for="email">Email Address (Required field):</label>
+  <input
+    required
+    type="email"
+    name="email"
+    id="email"
+    minlength="4"
+    maxlength="64"
+  />
+  <button type="submit">Submit Form</button>
+</form>
+```
+<img width="381" height="100" alt="Screenshot 2026-06-29 155557" src="https://github.com/user-attachments/assets/1d7aa28c-15d4-434b-bfd9-7013d7ca9062" />
+
+- form controls, like inputs, can be in different stages or conditions like a focused state, readonly state, disabled state or default state.
+- **default state** of an email address input is a blank input
+- **focused state** : 
+<img width="768" height="48" alt="Screenshot 2026-06-30 133319" src="https://github.com/user-attachments/assets/4304f9e3-05c9-4ec4-9ec1-29fcf3249d61" />
+
+- **disabled state** :  input cannot be focused or activated.
+<img width="770" height="49" alt="Screenshot 2026-06-30 133434" src="https://github.com/user-attachments/assets/32c590db-e7e1-4d20-921c-9f13dff18eaa" />
+
+- **readonly state** : form control, like an input, is not editable by the user
+<img width="764" height="146" alt="Screenshot 2026-06-30 133731" src="https://github.com/user-attachments/assets/5762018a-3b81-4b14-8a68-f92973ce0687" />
+
+- difference between the disabled state and readonly state is that readonly can be focused while the disabled state cannot.
+
+
+
+
+
+
+
