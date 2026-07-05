@@ -908,6 +908,7 @@ i indicates that the text differs from the surrounding content, while em emphasi
 - People with visual impairments, including those with low-vision or blindness.
 - Individuals with mobility impairments, such as limited use of hands and arms or conditions like arthritis and carpal tunnel syndrome.
 - Those recovering from hand or arm injuries.
+- benefit from voice recognition software : People with low leg movement
 - Individuals with cognitive disorders, like memory issues or attention deficit disorders.
 - Elderly individuals who might find it easier to use voice commands.
 - Voice Control for macOS/iOS.
