@@ -885,7 +885,7 @@ i indicates that the text differs from the surrounding content, while em emphasi
 - Screen readers are assistive technology programs that help blind and visually impaired people use computers and mobile devices. **text-to-speech** is just one of the features of a screen reader
 - notable features of screen readers are navigation aids and web browsing assistance.
 - macOS, iPhones and iOS both have **VoiceOver** built-in.
-- Windows computers have Narrator built-in. NonVisual Desktop Access (NVDA) and Job Access With Speech (JAWS) are also available for Windows computers. NVDA is free and open-source, while JAWS is paid.
+- Windows computers have **Narrator built-in**. NonVisual Desktop Access (NVDA) and Job Access With Speech (JAWS) are also available for Windows computers. NVDA is free and open-source, while JAWS is paid.
 - Linux has **Orca** for the desktop environment and **Speakup** for the Linux terminal. Android phones have **TalkBack** built-in and **Ella** is an Gen AI-powered platform.
 - Large text and braille keyboards are designed for users with visual disabilities. In Large Text Keyboards, also called Large Print Keyboards, the letters, numbers, and symbols are larger compared to standard keyboards. This design is helpful for people who may find smaller text in the keys difficult to see. Most of them also have enhanced contrast and brightness.
 - **large print keyboard** made by the brand MaxiAids has yellow keys with black, big, and bold letters, numbers, and symbols on them. This is helpful for people with low vision.
