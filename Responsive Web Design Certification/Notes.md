@@ -882,7 +882,7 @@ i indicates that the text differs from the surrounding content, while em emphasi
 - O stands for **Operable**. Users must be able to interact with the user interface. For example, you can make sure that all functionality is accessible through the keyboard too, not just the mouse.
 - U stands for **Understandable**. Users must be able to understand the information. For example, you can avoid complex sentences and use simple language as much as possible.
 - R stands for **Robust**. A wide range of browsers and other tools, including assistive technologies, must be able to interpret the content.
-- Screen readers are assistive technology programs that help blind and visually impaired people use computers and mobile devices. **text-to-speech** is just one of the features of a screen reader
+- **Screen readers** are assistive technology programs that help blind and visually impaired people use computers and mobile devices. **text-to-speech** is just one of the features of a screen reader
 - notable features of screen readers are navigation aids and web browsing assistance.
 - macOS, iPhones and iOS both have **VoiceOver** built-in.
 - Windows computers have **Narrator built-in**. NonVisual Desktop Access (NVDA) and Job Access With Speech (JAWS) are also available for Windows computers. NVDA is free and open-source, while JAWS is paid.
@@ -894,9 +894,25 @@ i indicates that the text differs from the surrounding content, while em emphasi
 - Large text and braille keyboards are tools that empower people with visual disabilities.
 - A **trackball** is a stationary pointing device that consists of a large, movable ball within a socket. It also includes additional buttons for clicking and performing other functions.
 - A **joystick** is a pointing device primarily designed for games and certain industrial applications like machinery control. arthritis and carpal tunnel syndrome. It consists of a lever that pivots up, down, left, and right, and often includes additional buttons for various actions.
-- A **touchpad** is a flat, touch-sensitive device built into laptops and some keyboards. It allows users to control the cursor on the screen by sliding their fingers across its surface. arthritis and joint pain
-
-
-
+- A **touchpad** is a flat, touch-sensitive device built into laptops and some keyboards. It allows users to control the cursor on the screen by sliding their fingers across its surface. arthritis and joint pain.
+- **Screen magnifiers** are tools that help people with low vision and other visual impairments better access digital content and the web enlarge the display by more than 200%.
+- - software developers need to make their digital products accessible to people with low vision.
+- - ZoomText for Windows.
+- - ClaroView for both macOS and Windows.
+- - iZoom for Windows.
+- - Zoomify - Screen Magnifier for macOS.
+- - LunarPlus for Windows.
+- - Loupe for macOS.
+- Voice recognition software helps people with disabilities interact with computers and other digital devices.
+- voice recognition tools let people with disabilities use their voice to pass commands to perform various tasks instead of using traditional input devices like keyboards and mice. This includes writing emails and other documents, surfing the net, and controlling smart home devices.
+- People with visual impairments, including those with low-vision or blindness.
+- Individuals with mobility impairments, such as limited use of hands and arms or conditions like arthritis and carpal tunnel syndrome.
+- Those recovering from hand or arm injuries.
+- Individuals with cognitive disorders, like memory issues or attention deficit disorders.
+- Elderly individuals who might find it easier to use voice commands.
+- Voice Control for macOS/iOS.
+- Voice Access for Android.
+- Windows Speech Recognition for Windows (Voice Access).
+- Dragon by Nuance for Windows.
 
 
