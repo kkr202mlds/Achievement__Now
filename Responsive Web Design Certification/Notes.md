@@ -915,5 +915,12 @@ i indicates that the text differs from the surrounding content, while em emphasi
 - Voice Access for Android.
 - Windows Speech Recognition for Windows (Voice Access).
 - Dragon by Nuance for Windows.
-
+- **Accessibility Auditing Tool** evaluates how accessible your digital content by reporting accessibility issues that can be easily found through automated testing. This content includes websites, web applications, and mobile apps.
+- **IBM Equal Access Accessibility Checker** can be used as a Chrome extension, Firefox add-on, or NPM package.
+- **Google Lighthouse** is a popular web metric checker you can use directly within Chrome DevTools or online.
+- Limitation of using the web version of the tool on **Google Lighthouse** cannot test local websites.
+- **WAVE** is another reliable accessibility checker you can use as a Chrome extension or on the web. accessibility report will be generated for you.
+- proper heading structure help those using screen readers allows screen readers to navigate and skip to different sections easily.
+- headings properly for users who rely on keyboards lets users jump between sections without the need to tab through every link.
+- best practices for headings on a web page Using clear and descriptive texts that summarize the following content.
 
