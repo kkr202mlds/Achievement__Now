@@ -779,6 +779,48 @@ i indicates that the text differs from the surrounding content, while em emphasi
 ```
 <ruby> 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp> </ruby>
 ```
+- **`<table>` element** with an id set to quickfacts. Inside it, the table has a **table head element `<thead>`**,  **table header `<th>`** **table body element `<tbody>`**, **table foot element `<tfoot>`**,  **table rows `<tr>`** and **table data `<td>`**.
+```
+<html>
+  <body>
+    <table>
+      <caption>
+        Calculus Final Exam Grades
+      </caption>
+
+      <thead>     
+        <tr>
+          <th>Last Name</th>
+          <th>First Name</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Davis</td>
+          <td>Alex</td>
+          <td>54</td>
+        </tr>
+
+        <tr>
+          <td>Rodriguez</td>
+          <td>Marcus</td>
+          <td>88</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="2">Average Grade</td>
+          <td>78.8</td>
+        </tr>
+      </tfoot>
+
+    </table>
+  </body>
+</html>
+```
 - `<form>` element is used to gather user information, such as names and email addresses.
 ```
 <form action="url-goes-here">
