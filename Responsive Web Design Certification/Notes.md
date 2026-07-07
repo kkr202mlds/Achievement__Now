@@ -991,4 +991,4 @@ i indicates that the text differs from the surrounding content, while em emphasi
   </tbody>
 </table>
 ```
-
+- associate a label's for attribute == the input's id.
