@@ -965,4 +965,30 @@ i indicates that the text differs from the surrounding content, while em emphasi
 - proper heading structure help those using screen readers allows screen readers to navigate and skip to different sections easily.
 - headings properly for users who rely on keyboards lets users jump between sections without the need to tab through every link.
 - best practices for headings on a web page Using clear and descriptive texts that summarize the following content.
+- `<th scope="row|col">`**scope attribute** determines if a header is a row header or a column header. Screen readers may guess this correctly from the table's structure, but it's usually recommended to explicitly indicate the scope to ensure clarity.
+```
+<table>
+  <caption>Our Pets</caption>
+  <thead>
+    <tr>
+      <!-- Now they have scope -->
+      <th scope="col">Name</th>
+      <th scope="col">Age</th>
+      <th scope="col">Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Nora</th>
+      <td>5</td>
+      <td>Dog</td>
+    </tr>
+    <tr>
+      <th scope="row">Gino</th>
+      <td>2</td>
+      <td>Cat</td>
+    </tr>
+  </tbody>
+</table>
+```
 
