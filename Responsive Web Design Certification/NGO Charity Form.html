@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NGO Charity Form</title>
+  <style>
+    /* Makes labels and inputs stack cleanly */
+    label, input {
+      display: inline-block;
+      margin-bottom: 12px; 
+    }
+
+    /* Adds a specific gap between the label and its input */
+    label {
+      min-width: 170px; 
+      margin-right: 10px;
+    }
+
+    /* Adjusts spacing specifically for the checkbox */
+    input[type="checkbox"] {
+      margin-right: 6px;
+    }
+  </style>
+</head>
+<body>
+  <h1>NGO Charity Form</h1>
+  <form>
+    
+    <label for="name">Full Name:</label>
+    <input id="name" type="text" name="name" required><br>
+
+    <label for="email">Email Address:</label>
+    <input id="email" type="email" name="email" required><br>
+
+    <label for="amount">Charity Amount ($):</label>
+    <input id="amount" type="number" name="amount" required><br>
+
+    <input id="newsletter" type="checkbox" name="newsletter">
+    <label for="newsletter">Subscribe</label><br>
+
+    <input type="submit" value="Send">
+  </form>
+</body>
+</html>
