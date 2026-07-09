@@ -191,8 +191,146 @@ button:hover {
 ```
 # index.html
 
+<link rel="stylesheet" href="styles.css">
+
+<div class="status-demo">
+  <button id="update-status-btn">Check Status</button>
+  <div id="status-msg" role="status" class="status-message">
+    No updates yet.
+  </div>
+</div>
+
+<script src="index.js"></script>
 
 
+# style.css
 
+.status-demo {
+  margin-top: 1em;
+}
+
+button {
+  padding: 0.5em 1em;
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.status-message {
+  margin-top: 0.75em;
+  padding: 0.75em;
+  background-color: #e8f4ff;
+  border: 1px solid #b3d8ff;
+  border-radius: 4px;
+  font-weight: 500;
+}
+const button = document.getElementById("update-status-btn");
+const statusMessage = document.getElementById("status-msg");
+
+button.addEventListener("click", () => {
+  statusMessage.textContent = "Your upload has completed successfully.";
+});
 ```
 <img width="528" height="115" alt="image" src="https://github.com/user-attachments/assets/42a2f784-32a1-47f4-98bc-357996cf9c3c" />
+
+```
+# index.html
+
+<link rel="stylesheet" href="styles.css">
+
+<button id="open-dialog">Open Dialog</button>
+
+<div id="custom-dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title" class="dialog">
+  <div class="dialog-content">
+    <h3 id="dialog-title">Confirm Action</h3>
+    <p>Are you sure you want to delete this file?</p>
+    <div class="dialog-actions">
+      <button id="confirm-btn">Yes</button>
+      <button id="close-dialog">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<script src="index.js"></script>
+
+
+# style.css
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 2em;
+}
+
+button {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007acc;
+  color: white;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.dialog {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  justify-content: center; 
+  align-items: center;   
+  z-index: 1000;
+}
+
+.dialog-content {
+  background-color: white;
+  padding: 1.5em;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5em;
+  margin-top: 1em;
+}
+
+# script.js
+
+const dialog = document.getElementById("custom-dialog");
+const openBtn = document.getElementById("open-dialog");
+const closeBtn = document.getElementById("close-dialog");
+const confirmBtn = document.getElementById("confirm-btn");
+
+openBtn.addEventListener("click", () => {
+  dialog.style.display = "flex";
+});
+
+closeBtn.addEventListener("click", () => {
+  dialog.style.display = "none";
+});
+
+confirmBtn.addEventListener("click", () => {
+  alert("File deleted.");
+  dialog.style.display = "none";
+});
+```
+<img width="200" height="74" alt="image" src="https://github.com/user-attachments/assets/4a0695e9-efa9-4e49-84eb-feb230bd1fd8" />
+
+
+
