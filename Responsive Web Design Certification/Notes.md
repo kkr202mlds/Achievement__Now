@@ -1000,12 +1000,13 @@ i indicates that the text differs from the surrounding content, while em emphasi
 <h2 id="header-id">About freeCodeCamp</h2>
 <button id="button-id" aria-labelledby="header-id button-id">Learn More</button>
 ```
+#### Roles `<div role=:""></div>`
 - 6 categories of ARIA roles:
-- Document structure roles
-- Widget roles
-- Landmark roles
-- Live region roles
-- Window roles
+- Document structure roles : article cell document figure group heading img list row table
+- Widget roles `<div role="searchbox">` define the purpose and functionality of interactive elements, like **scrollbar, searchbox, separator (when focusable), slider, spinbutton, switch, tab, tabpanel, and treeitem**.
+- Landmark roles `<div role="banner">` are **banner, complementary, contentinfo, form, main, navigation, region, and search**. Each of these roles has a corresponding HTML equivalent, such as header, footer, aside, form, main, nav, section, and search. `<aside>` element defines content that is tangentially or indirectly related to the main content. `<search>` element tag is used to specify that here comes a set of elements that is related to search.
+- Live region roles include: **alert, log, marquee, status, and timer** define elements with content that will change dynamically.
+- Window roles define sub-windows, like **pop-up modal dialogs**. These roles include **alertdialog and dialog**
 - Abstract roles
 
 #### standard WAI-ARIA roles used in web development to define how elements and widgets are announced by screen readers.
@@ -1040,6 +1041,4 @@ i indicates that the text differs from the surrounding content, while em emphasi
 ```
 <img width="110" height="48" alt="image" src="https://github.com/user-attachments/assets/3890ae81-be22-4ed3-b29c-0c10949ad96f" />
 
-- Widget roles `<div role="searchbox">` define the purpose and functionality of interactive elements, like **scrollbar, searchbox, separator (when focusable), slider, spinbutton, switch, tab, tabpanel, and treeitem**.
--  landmark roles `<div role="banner">` are **banner, complementary, contentinfo, form, main, navigation, region, and search**. Each of these roles has a corresponding HTML equivalent, such as header, footer, aside, form, main, nav, section, and search.
 
