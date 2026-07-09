@@ -69,4 +69,130 @@ setInterval(function () {
 <img width="531" height="118" alt="Screenshot 2026-07-09 142418" src="https://github.com/user-attachments/assets/83522329-8674-4f09-9c84-f055be3c9edb" />
 
 
+```
+# index.html
 
+<link rel="stylesheet" href="styles.css">
+
+<div class="search-container" role="search">
+  <label for="searchbox" class="visually-hidden">Search</label>
+
+  <div
+    id="searchbox"
+    class="searchbox"
+    role="searchbox"
+    aria-label="Search the site"
+    tabindex="0"
+    contenteditable="true">
+  </div>
+
+  <button type="button" aria-label="Submit search">Search</button>
+</div>
+
+
+# style.css
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-top: 1em;
+}
+
+.searchbox {
+  flex: 1;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  min-height: 1.5em;
+}
+
+.searchbox:focus {
+  border-color: #007acc;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.3);
+}
+
+button {
+  padding: 0.5em 1em;
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Hide visually but keep for screen readers */
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+}
+```
+<img width="533" height="117" alt="Screenshot 2026-07-09 145607" src="https://github.com/user-attachments/assets/918e3890-c47e-480e-bc5b-de24d46c9371" />
+
+```
+# index.html
+
+<link rel="stylesheet" href="styles.css">
+
+
+<div role="banner" class="site-banner">
+  <h1>Accessible Web Design</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Articles</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+# style.css
+
+.site-banner {
+  background-color: #007acc;
+  color: #fff;
+  padding: 1em 1.5em;
+  border-radius: 4px;
+}
+
+.site-banner h1 {
+  margin: 0 0 0.5em;
+  font-size: 1.5em;
+}
+
+.site-banner nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+}
+
+.site-banner nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-banner nav a:hover {
+  text-decoration: underline;
+}
+```
+<img width="530" height="126" alt="Screenshot 2026-07-09 150055" src="https://github.com/user-attachments/assets/f9ed2eb2-2726-44c1-9475-69ce1c82385f" />
+
+```
+# index.html
+
+
+
+
+```
+<img width="528" height="115" alt="image" src="https://github.com/user-attachments/assets/42a2f784-32a1-47f4-98bc-357996cf9c3c" />
