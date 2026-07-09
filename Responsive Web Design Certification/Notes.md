@@ -991,4 +991,54 @@ i indicates that the text differs from the surrounding content, while em emphasi
   </tbody>
 </table>
 ```
-- associate a label's for attribute == the input's id.
+- associate a label's for attribute == the input's id attribute.
+- **WAI-ARIA** stands for **Web Accessibility Initiative - Accessible Rich Internet Applications**. It's a specification that enhances accessibility for dynamic content and UI (User Interface) components.
+- **WAI-ARIA attributes** : To provide additional semantic information for accessibility.
+
+- ARIA properties provide additional details about elements.
+```
+<h2 id="header-id">About freeCodeCamp</h2>
+<button id="button-id" aria-labelledby="header-id button-id">Learn More</button>
+```
+- 6 categories of ARIA roles:
+- Document structure roles
+- Widget roles
+- Landmark roles
+- Live region roles
+- Window roles
+- Abstract roles
+
+##### standard WAI-ARIA roles used in web development to define how elements and widgets are announced by screen readers.
+- **Toolbar**: Groups a collection of common controls (such as buttons or checkboxes) into a compact visual form, allowing screen reader users to understand.
+- **Tooltip**: A contextual popup or text bubble that appears when an element is hovered over or focused.
+- **Feed**: A dynamic, scrollable list of articles or content that updates continuously as the user scrolls, allowing screen readers to browse naturally.
+- **Math**: Used for marking up mathematical expressions and formulas so they are properly read by accessibility tools and browsers.
+- **Presentation / None**: They are useful for purely decorative images or layouts (like tables) that screen readers don't convey semantic meaning.
+- **Note**: Identifies a parenthetic or auxiliary section of content that stands out from the main flow, such as an editorial note, warning, or highlight box.
+```
+# index.html
+<link rel="stylesheet" href="styles.css">
+
+<div role="math" aria-label="x squared + y squared = 3">
+  x<sup>2</sup> + y<sup>2</sup> = 3
+</div>
+
+# style.css
+.math-expression {
+  font-family: "Times New Roman", serif;
+  font-size: 1.2rem;
+  background-color: #f4f4f4;
+  border-left: 4px solid #007acc;
+  padding: 0.75em 1em;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+.math-expression sup {
+  font-size: 0.8em;
+}
+```
+<img width="110" height="48" alt="image" src="https://github.com/user-attachments/assets/3890ae81-be22-4ed3-b29c-0c10949ad96f" />
+
+- lll
+
