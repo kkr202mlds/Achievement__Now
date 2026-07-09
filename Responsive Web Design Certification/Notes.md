@@ -1001,18 +1001,18 @@ i indicates that the text differs from the surrounding content, while em emphasi
 <button id="button-id" aria-labelledby="header-id button-id">Learn More</button>
 ```
 #### Roles `<div role=:""></div>` 6 categories of ARIA roles:
-- Document structure roles : article cell document figure group heading img list row table. standard WAI-ARIA roles used in web development to define how elements and widget are announced by screen readers.
+- **Document structure roles** : article cell document figure group heading img list row table. standard WAI-ARIA roles used in web development to define how elements and widget are announced by screen readers.
 - - **Toolbar**: Groups a collection of common controls (such as buttons or checkboxes) into a compact visual form, allowing screen reader users to understand.
 - - **Tooltip**: A contextual popup or text bubble that appears when an element is hovered over or focused.
 - - **Feed**: A dynamic, scrollable list of articles or content that updates continuously as the user scrolls, allowing screen readers to browse naturally.
 - - **Math**: Used for marking up mathematical expressions and formulas so they are properly read by accessibility tools and browsers.
 - - **Presentation / None**: They are useful for purely decorative images or layouts (like tables) that screen readers don't convey semantic meaning.
 - - **Note**: Identifies a parenthetic or auxiliary section of content that stands out from the main flow, such as an editorial note, warning, or highlight box.
-- Widget roles `<div role="searchbox">` define the purpose and functionality of interactive elements, like **scrollbar, searchbox, separator (when focusable), slider, spinbutton, switch, tab, tabpanel, and treeitem**.
-- Landmark roles `<div role="banner">` are **banner, complementary, contentinfo, form, main, navigation, region, and search**. Each of these roles has a corresponding HTML equivalent, such as header, footer, aside, form, main, nav, section, and search. `<aside>` element defines content that is tangentially or indirectly related to the main content. `<search>` element tag is used to specify that here comes a set of elements that is related to search.
-- Live region roles include: **alert, log, marquee, status, and timer** define elements with content that will change dynamically.
-- Window roles define sub-windows, like **pop-up modal dialogs**. These roles include **alertdialog and dialog**
-- Abstract roles
+- **Widget roles** `<div role="searchbox">` define the purpose and functionality of interactive elements, like **scrollbar, searchbox, separator (when focusable), slider, spinbutton, switch, tab, tabpanel, and treeitem**.
+- **Landmark roles** `<div role="banner">` are **banner, complementary, contentinfo, form, main, navigation, region, and search**. Each of these roles has a corresponding **semantic HTML equivalent, such as header, footer, aside, form, main, nav, section, and search**. `<aside>` element defines content that is tangentially or indirectly related to the main content. `<search>` element tag is used to specify that here comes a set of elements that is related to search.
+- **Live region roles** include: **alert, log, marquee, status, and timer** define elements with content that will change dynamically.
+- **Window roles** define sub-windows, like **pop-up modal dialogs**. These roles include **alertdialog and dialog**
+- **Abstract roles** are only intended for use by browsers to help organize and streamline a document. They should not be used by developers on websites or web applications like **command, composite, input, landmark, range, roletype, section, sectionhead, select, structure, widget, and window.**
 
 ```
 # index.html
@@ -1039,4 +1039,31 @@ i indicates that the text differs from the surrounding content, while em emphasi
 ```
 <img width="110" height="48" alt="image" src="https://github.com/user-attachments/assets/3890ae81-be22-4ed3-b29c-0c10949ad96f" />
 
-
+##### Roles of the aria-label and aria-labelledby Attributes
+-  **aria-label** attribute is an invisible label for interactive elements. It adds a text label to an element that screen readers can read.
+```
+<button aria-label="Search">
+  <i class="fa-solid fa-magnifying-glass"></i>
+</button>
+```
+- **aria-labelledby** attribute use a reference to text that already exists on the page and does the exact same thing as the aria-label attribute, but not directly.
+```
+<input type="text" aria-labelledby="search-btn">
+<button type="button" id="search-btn">Search</button>
+```
+##### advantage of aria-labelledby
+-  is change the button text to Find, the label for the input will automatically be updated to the new text since it is referencing the button text.
+-  aria-labelledby can make it much easier to programmatically create complex invisible labels consisting of multiple sources of text.
+- Combining multiple id values into a single aria-labelledby attribute value is also possible.
+```
+<div>
+  <span id="volume-label">Volume</span>
+  <span id="volume-details">Adjust the volume level</span>
+  <input
+    type="range"
+    min="0"
+    max="100"
+    value="30"
+    aria-labelledby="volume-label volume-details">
+</div>
+```
