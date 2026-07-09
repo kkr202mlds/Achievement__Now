@@ -1008,7 +1008,7 @@ i indicates that the text differs from the surrounding content, while em emphasi
 - Window roles
 - Abstract roles
 
-##### standard WAI-ARIA roles used in web development to define how elements and widgets are announced by screen readers.
+#### standard WAI-ARIA roles used in web development to define how elements and widgets are announced by screen readers.
 - **Toolbar**: Groups a collection of common controls (such as buttons or checkboxes) into a compact visual form, allowing screen reader users to understand.
 - **Tooltip**: A contextual popup or text bubble that appears when an element is hovered over or focused.
 - **Feed**: A dynamic, scrollable list of articles or content that updates continuously as the user scrolls, allowing screen readers to browse naturally.
@@ -1040,5 +1040,6 @@ i indicates that the text differs from the surrounding content, while em emphasi
 ```
 <img width="110" height="48" alt="image" src="https://github.com/user-attachments/assets/3890ae81-be22-4ed3-b29c-0c10949ad96f" />
 
-- lll
+- Widget roles `<div role="searchbox">` define the purpose and functionality of interactive elements, like **scrollbar, searchbox, separator (when focusable), slider, spinbutton, switch, tab, tabpanel, and treeitem**.
+-  landmark roles `<div role="banner">` are **banner, complementary, contentinfo, form, main, navigation, region, and search**. Each of these roles has a corresponding HTML equivalent, such as header, footer, aside, form, main, nav, section, and search.
 
