@@ -1,5 +1,5 @@
 ```
-# index.html
+# index.html  - HTML
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +18,7 @@
 </body>
 </html>
 
-# styles.css
+# styles.css  -   CSS
 
 body{
   padding: 25px;
@@ -27,7 +27,7 @@ body{
 	color: #5C6AC4;
 }
 
-# script.js
+# script.js  -   JavaScript
 
 function showTime() {
 	document.getElementById('currentTime').innerHTML = new Date().toUTCString();
@@ -42,7 +42,7 @@ setInterval(function () {
 
 
 ```
-# index.html
+# index.html   -  HTML
 
 <link rel="stylesheet" href="styles.css">
 
@@ -50,7 +50,7 @@ setInterval(function () {
   <span class="hidden">Your log in session will expire in 3 minutes.</span>
 </div>
 
-# styles.css
+# styles.css  -  CSS
 
 .alert {
   background-color: #fff3cd;
