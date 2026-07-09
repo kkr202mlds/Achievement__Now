@@ -1,0 +1,25 @@
+<!-- The input references the button's ID for its accessible name -->
+<input 
+  type="text" 
+  id="search-bar"
+  aria-labelledby="submit-btn" 
+  placeholder="Type Find here..." 
+  oninput="checkInput()" 
+/>
+
+<!-- The button text acts as the dynamic label -->
+<button id="submit-btn">Search</button>
+
+<script>
+function checkInput() {
+  const input = document.getElementById('search-bar');
+  const button = document.getElementById('submit-btn');
+  
+  // Clean up the text to check if the user typed "Find"
+  if (input.value.trim().toLowerCase() === 'find') {
+    button.textContent = 'Find';
+  } else {
+    button.textContent = 'Search';
+  }
+}
+</script>
