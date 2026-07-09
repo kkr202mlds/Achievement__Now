@@ -331,6 +331,8 @@ confirmBtn.addEventListener("click", () => {
 });
 ```
 <img width="200" height="74" alt="image" src="https://github.com/user-attachments/assets/4a0695e9-efa9-4e49-84eb-feb230bd1fd8" />
+<img width="1128" height="495" alt="Screenshot 2026-07-09 153137" src="https://github.com/user-attachments/assets/c99ae382-85cf-4cfc-b18e-62af1475e543" />
+<img width="1077" height="447" alt="Screenshot 2026-07-09 153159" src="https://github.com/user-attachments/assets/fc0016a2-bdde-4e78-8adf-8d8c253035ad" />
 
 
 
