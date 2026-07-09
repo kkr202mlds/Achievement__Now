@@ -1000,8 +1000,7 @@ i indicates that the text differs from the surrounding content, while em emphasi
 <h2 id="header-id">About freeCodeCamp</h2>
 <button id="button-id" aria-labelledby="header-id button-id">Learn More</button>
 ```
-#### Roles `<div role=:""></div>`
-- 6 categories of ARIA roles:
+#### Roles `<div role=:""></div>` 6 categories of ARIA roles:
 - Document structure roles : article cell document figure group heading img list row table. standard WAI-ARIA roles used in web development to define how elements and widget are announced by screen readers.
 - - **Toolbar**: Groups a collection of common controls (such as buttons or checkboxes) into a compact visual form, allowing screen reader users to understand.
 - - **Tooltip**: A contextual popup or text bubble that appears when an element is hovered over or focused.
