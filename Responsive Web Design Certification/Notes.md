@@ -1002,20 +1002,19 @@ i indicates that the text differs from the surrounding content, while em emphasi
 ```
 #### Roles `<div role=:""></div>`
 - 6 categories of ARIA roles:
-- Document structure roles : article cell document figure group heading img list row table
+- Document structure roles : article cell document figure group heading img list row table. standard WAI-ARIA roles used in web development to define how elements and widget are announced by screen readers.
+- - **Toolbar**: Groups a collection of common controls (such as buttons or checkboxes) into a compact visual form, allowing screen reader users to understand.
+- - **Tooltip**: A contextual popup or text bubble that appears when an element is hovered over or focused.
+- - **Feed**: A dynamic, scrollable list of articles or content that updates continuously as the user scrolls, allowing screen readers to browse naturally.
+- - **Math**: Used for marking up mathematical expressions and formulas so they are properly read by accessibility tools and browsers.
+- - **Presentation / None**: They are useful for purely decorative images or layouts (like tables) that screen readers don't convey semantic meaning.
+- - **Note**: Identifies a parenthetic or auxiliary section of content that stands out from the main flow, such as an editorial note, warning, or highlight box.
 - Widget roles `<div role="searchbox">` define the purpose and functionality of interactive elements, like **scrollbar, searchbox, separator (when focusable), slider, spinbutton, switch, tab, tabpanel, and treeitem**.
 - Landmark roles `<div role="banner">` are **banner, complementary, contentinfo, form, main, navigation, region, and search**. Each of these roles has a corresponding HTML equivalent, such as header, footer, aside, form, main, nav, section, and search. `<aside>` element defines content that is tangentially or indirectly related to the main content. `<search>` element tag is used to specify that here comes a set of elements that is related to search.
 - Live region roles include: **alert, log, marquee, status, and timer** define elements with content that will change dynamically.
 - Window roles define sub-windows, like **pop-up modal dialogs**. These roles include **alertdialog and dialog**
 - Abstract roles
 
-#### standard WAI-ARIA roles used in web development to define how elements and widgets are announced by screen readers.
-- **Toolbar**: Groups a collection of common controls (such as buttons or checkboxes) into a compact visual form, allowing screen reader users to understand.
-- **Tooltip**: A contextual popup or text bubble that appears when an element is hovered over or focused.
-- **Feed**: A dynamic, scrollable list of articles or content that updates continuously as the user scrolls, allowing screen readers to browse naturally.
-- **Math**: Used for marking up mathematical expressions and formulas so they are properly read by accessibility tools and browsers.
-- **Presentation / None**: They are useful for purely decorative images or layouts (like tables) that screen readers don't convey semantic meaning.
-- **Note**: Identifies a parenthetic or auxiliary section of content that stands out from the main flow, such as an editorial note, warning, or highlight box.
 ```
 # index.html
 <link rel="stylesheet" href="styles.css">
