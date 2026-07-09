@@ -1039,7 +1039,7 @@ i indicates that the text differs from the surrounding content, while em emphasi
 ```
 <img width="110" height="48" alt="image" src="https://github.com/user-attachments/assets/3890ae81-be22-4ed3-b29c-0c10949ad96f" />
 
-##### Roles of the aria-label and aria-labelledby Attributes
+#### Roles of the aria-label and aria-labelledby Attributes
 -  **aria-label** attribute is an invisible label for interactive elements. It adds a text label to an element that screen readers can read.
 ```
 <button aria-label="Search">
@@ -1051,7 +1051,7 @@ i indicates that the text differs from the surrounding content, while em emphasi
 <input type="text" aria-labelledby="search-btn">
 <button type="button" id="search-btn">Search</button>
 ```
-##### advantage of aria-labelledby
+#### advantage of aria-labelledby
 -  is change the button text to Find, the label for the input will automatically be updated to the new text since it is referencing the button text.
 -  aria-labelledby can make it much easier to programmatically create complex invisible labels consisting of multiple sources of text.
 - Combining multiple id values into a single aria-labelledby attribute value is also possible.
