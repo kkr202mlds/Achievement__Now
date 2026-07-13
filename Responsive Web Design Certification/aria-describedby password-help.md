@@ -1,4 +1,5 @@
 ```
+# password-help text remains red until you type 8 or more characters into the input.
 # index.html
 
 <link rel="stylesheet" href="styles.css">
