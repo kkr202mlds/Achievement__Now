@@ -1067,3 +1067,9 @@ i indicates that the text differs from the surrounding content, while em emphasi
     aria-labelledby="volume-label volume-details">
 </div>
 ```
+- **aria-hidden attribute** is used to hide elements from people who use assistive technology, such as screen reader users.
+
+<img width="1015" height="249" alt="image" src="https://github.com/user-attachments/assets/5cb46b10-aad1-44b1-a1a1-d71bd25fe301" />
+
+- **aria-describedby attribute** is used to provide additional information about an element to screen reader users by referencing existing content on the page.
+<img width="872" height="112" alt="image" src="https://github.com/user-attachments/assets/032a25a9-9fa3-4bb1-af07-e7128f1b6f50" />
