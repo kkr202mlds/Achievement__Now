@@ -1073,3 +1073,11 @@ i indicates that the text differs from the surrounding content, while em emphasi
 
 - **aria-describedby attribute** is used to provide additional information about an element to screen reader users by referencing existing content on the page.
 <img width="872" height="112" alt="image" src="https://github.com/user-attachments/assets/032a25a9-9fa3-4bb1-af07-e7128f1b6f50" />
+
+- **alt attribute text** is a essential information about the image for users who cannot see it, such as people who use screen readers and assistive technologies.
+```
+<a href="about.html">
+  <img src="arrow-right.png" alt="Go to next page." />
+</a>
+```
+- 
