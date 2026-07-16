@@ -1090,6 +1090,7 @@ i indicates that the text differs from the surrounding content, while em emphasi
 ```
 
 - **Audio and Video Content Accessible**  is not just about visuals but also audio, so the first thing you should consider doing is adding **Captions** provide the text version of spoken words or **Subtitles** are essential for people who don't understand the language you're speaking by screen readers. This helps not only people who are deaf or hard of hearing but also those watching videos in noisy or quiet environments.
+- By using the **`<track>` tag** inside the **`<video>` tag** or **`<audio>` tag element**.
 ```
 <video
   width="400"
@@ -1121,3 +1122,43 @@ i indicates that the text differs from the surrounding content, while em emphasi
 - **label attribute** is a descriptive title for the text track
 - **Transcripts** are useful for deaf people and those hard of hearing. They're also beneficial for people who prefer reading instead of watching or listening. Transcripts also make your content searchable, allowing users to quickly find specific parts of your audio or video
 <img width="960" height="272" alt="image" src="https://github.com/user-attachments/assets/3ddae022-e12f-4a0d-9666-1a79b6e388a8" />
+
+- **tabindex attribute** want to adjust which elements are focusable or change their focus order.
+```
+<element tabindex="number">Element Text</element>
+```
+- The value of tabindex determines how the element behaves in keyboard navigation:
+- tabindex="0" adds the element to the natural tab order.
+<img width="894" height="81" alt="image" src="https://github.com/user-attachments/assets/7a59946d-dacc-4378-aa46-666765dd0553" />
+
+- **`tabindex="-1"`** makes an element focusable programmatically. This is useful for managing focus in elements that are not normally focusable, such as headings, containers, dialogs, or error messages:
+<img width="871" height="96" alt="image" src="https://github.com/user-attachments/assets/2b6cbdca-536e-4bd2-8633-dfe92c9b09f5" />
+
+-  tabbing will focus the input with **tabindex="1"** first, then 2, then 3, regardless of their order in the HTML.
+```
+<input tabindex="2">
+<input tabindex="1">
+<input tabindex="3">
+```
+- **accesskey** is another attribute you can use to make your web project keyboard accessible. It allows you to define a key that focuses on or activates a particular element.
+- **accesskey="s"** assigns the key S to the Save button. On most browsers, pressing ALT + S (on Windows) will activate this button.
+- **accesskey="c"** sets the key C to the Cancel button, allowing users to activate it using ALT + C (Windows).
+- **accesskey="h"** assigns the key H to the Home link, allowing users to navigate to the homepage using ALT + H (Windows).
+<img width="741" height="60" alt="image" src="https://github.com/user-attachments/assets/3da5cbab-d8c9-45d7-9bc9-dc09e56acd6d" />
+
+- keyboard accessible in your apps is to make sure you provide clear **focus indicators**.
+- **outline property** is used to define the outline around the element.
+```
+#index.html
+ 
+<link href="styles.css" rel="stylesheet">
+<button>Example button</button>
+
+# styles.css
+
+button:focus {
+  outline: 2px solid #005fcc;        /*solid blue line*/
+}
+```
+<img width="674" height="106" alt="image" src="https://github.com/user-attachments/assets/c83b137c-70bd-492c-a523-4fddd068f4ea" />
+
