@@ -1079,6 +1079,7 @@ i indicates that the text differs from the surrounding content, while em emphasi
 <a href="about.html">
   <img src="arrow-right.png" alt="Go to next page." />
 </a>
+```
 
 - best practice for **writing link texts**  > Make links visually distinct with underlining and other visual cues.
 - **Good Link** > It helps users know where they're headed and what they'll access.
