@@ -1079,5 +1079,44 @@ i indicates that the text differs from the surrounding content, while em emphasi
 <a href="about.html">
   <img src="arrow-right.png" alt="Go to next page." />
 </a>
+
+- best practice for **writing link texts**  > Make links visually distinct with underlining and other visual cues.
+- **Good Link** > It helps users know where they're headed and what they'll access.
 ```
-- 
+<a href="/link-to-topic">
+   Learn more about our accessibility efforts
+</a>
+```
+
+- **Audio and Video Content Accessible**  is not just about visuals but also audio, so the first thing you should consider doing is adding Captions provide the text version of spoken words or Subtitles are essential for people who don't understand the language you're speaking by screen readers. This helps not only people who are deaf or hard of hearing but also those watching videos in noisy or quiet environments.
+```
+<video
+  width="400"
+  height="300"
+  controls
+  src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4"
+>
+  <track
+    src="captions.vtt"
+    kind="captions"
+    srclang="en"
+    label="English"
+  />
+</video>
+
+<audio controls src="sample.mp3">
+  <track
+    src="captions.vtt"
+    kind="captions"
+    srclang="en"
+    label="English"
+  />
+</audio>
+```
+<img width="324" height="200" alt="image" src="https://github.com/user-attachments/assets/09b046dc-f8b2-4b1f-a645-a403e278c7bd" />
+
+- **kind attribute** is used to tell the track element how it should be used. Valid values for the kind attribute include **captions, subtitles, chapters, and metadata**.
+- **srclang attribute** represents the language for the track content.
+- **label attribute** is a descriptive title for the text track
+- **Transcripts** are useful for deaf people and those hard of hearing. They're also beneficial for people who prefer reading instead of watching or listening. Transcripts also make your content searchable, allowing users to quickly find specific parts of your audio or video
+<img width="960" height="272" alt="image" src="https://github.com/user-attachments/assets/3ddae022-e12f-4a0d-9666-1a79b6e388a8" />
