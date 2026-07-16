@@ -1089,7 +1089,7 @@ i indicates that the text differs from the surrounding content, while em emphasi
 </a>
 ```
 
-- **Audio and Video Content Accessible**  is not just about visuals but also audio, so the first thing you should consider doing is adding Captions provide the text version of spoken words or Subtitles are essential for people who don't understand the language you're speaking by screen readers. This helps not only people who are deaf or hard of hearing but also those watching videos in noisy or quiet environments.
+- **Audio and Video Content Accessible**  is not just about visuals but also audio, so the first thing you should consider doing is adding **Captions** provide the text version of spoken words or **Subtitles** are essential for people who don't understand the language you're speaking by screen readers. This helps not only people who are deaf or hard of hearing but also those watching videos in noisy or quiet environments.
 ```
 <video
   width="400"
