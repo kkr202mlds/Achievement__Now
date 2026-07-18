@@ -32,4 +32,5 @@
 </body>
 </html>
 ```
-<img width="409" height="549" alt="image" src="https://github.com/user-attachments/assets/7f952acc-9b2a-4c5f-8947-61b14976f789" />
+<img width="642" height="811" alt="Screenshot 2026-07-18 163800" src="https://github.com/user-attachments/assets/657197fb-cd94-429b-b8b2-edfad54c64f3" />
+
