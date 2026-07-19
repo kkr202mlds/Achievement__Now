@@ -917,14 +917,15 @@ i indicates that the text differs from the surrounding content, while em emphasi
 <img width="764" height="146" alt="Screenshot 2026-06-30 133731" src="https://github.com/user-attachments/assets/5762018a-3b81-4b14-8a68-f92973ce0687" />
 
 - difference between the disabled state and readonly state is that readonly can be focused while the disabled state cannot.
-- **accessible websites** : the **World Wide Web(www) Consortium, known as W3C**, developed a set of international standards **Web Content Accessibility Guidelines (WCAG)** that you can follow to make your websites more accessible and easier to use for people with disabilities.
+- **accessible websites** : the **World Wide Web(www) Consortium, known as W3C**, developed a set of international standards **Web Content Accessibility Guidelines (WCAG)**  are a set of guidelines for making web content more accessible and easier to use for people with disabilities.
 - **https : HyperText Transfer Protocol Secure**.
 - **POUR** : four core  principles in mind.
 - P stands for **Perceivable**. Users must be able to perceive the information that you are presenting. For example, you can provide alternative text for images, so users who access your website with a screen reader can understand them.
 - O stands for **Operable**. Users must be able to interact with the user interface. For example, you can make sure that all functionality is accessible through the keyboard too, not just the mouse.
 - U stands for **Understandable**. Users must be able to understand the information. For example, you can avoid complex sentences and use simple language as much as possible.
 - R stands for **Robust**. A wide range of browsers and other tools, including assistive technologies, must be able to interpret the content.
-- **Screen readers** are assistive technology programs that help blind and visually impaired people use computers and mobile devices. **text-to-speech** is just one of the features of a screen reader
+- **Screen readers** are assistive technology programs that help blind and visually impaired people use computers and mobile devices. Software programs that read the content of a computer screen out loud
+- **text-to-speech** is just one of the features of a screen reader
 - notable features of screen readers are navigation aids and web browsing assistance.
 - macOS, iPhones and iOS both have **VoiceOver** built-in.
 - Windows computers have **Narrator built-in**. NonVisual Desktop Access (NVDA) and Job Access With Speech (JAWS) are also available for Windows computers. NVDA is free and open-source, while JAWS is paid.
@@ -945,7 +946,7 @@ i indicates that the text differs from the surrounding content, while em emphasi
 - - Zoomify - Screen Magnifier for macOS.
 - - LunarPlus for Windows.
 - - Loupe for macOS.
-- Voice recognition software helps people with disabilities interact with computers and other digital devices.
+- **Voice recognitio**n software helps people with disabilities interact with computers and other digital devices.
 - voice recognition tools let people with disabilities use their voice to pass commands to perform various tasks instead of using traditional input devices like keyboards and mice. This includes writing emails and other documents, surfing the net, and controlling smart home devices.
 - People with visual impairments, including those with low-vision or blindness.
 - Individuals with mobility impairments, such as limited use of hands and arms or conditions like arthritis and carpal tunnel syndrome.
