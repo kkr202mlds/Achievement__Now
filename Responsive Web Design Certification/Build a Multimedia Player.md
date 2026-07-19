@@ -9,30 +9,30 @@
 
 <body>
 
-  <h1></h1>
+  <h1>My Multimedia Showcase</h1>
+
   <section>
-    <h2>Track sailing away</h2>
-    <audio controls aria-label="Track sailing away">
-      <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3"></source>
+    <h2>Now Playing: Summer Breeze</h2>
+    <audio controls aria-label="A relaxing acoustic guitar song titled Summer Breeze">
+      <source src="audio/summer-breeze.mp3" type="audio/mpeg">
     </audio>
   </section>
 
   <section>
-    <h2>what is the map method and how does it work?</h2>
-    <video width="600">
-      <source src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4"></source>
-      <track src="what-is-the-map-method-and-how-does-it-work" 
-      kind="mp4" 
-      srclang="en" 
-      label="what-is-the-map-method-and-how-does-it-work"></track>
+    <h2>Featured Video: Coding Tutorial</h2>
+    <video controls width="600">
+      <source src="videos/coding-tutorial.mp4" type="video/mp4">
+      <track src="subtitles/english.vtt" kind="subtitles" srclang="en" label="English">
     </video>
   </section>
 
   <section>
-    <h2></h2>
-    <p></p>
+    <h2>Video Transcript</h2>
+    <p>Welcome to this coding tutorial. Today, we are learning how to build an accessible multimedia player using semantic HTML5 elements like audio and video.</p>
   </section>
 
 </body>
 </html>
 ```
+<img width="534" height="447" alt="image" src="https://github.com/user-attachments/assets/444babeb-090b-429b-876a-98823059c6f6" />
+
