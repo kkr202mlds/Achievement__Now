@@ -889,8 +889,8 @@ i indicates that the text differs from the surrounding content, while em emphasi
 <img width="966" height="113" alt="Screenshot 2026-06-29 155434" src="https://github.com/user-attachments/assets/9dbbcf20-70db-4f4a-bac0-aea6dc735ba9" />
 
 - **minlength and maxlength attributes** are used to set the minimum and maximum length in characters for the email input.
-- maxlength attribute physically stops the user from typing or pasting more than the specified number of characters. e.g. `<input type="text" maxlength="3">`
-- max attribute defines the maximum allowable value for a field. It does not stop a user from typing more characters, but it will make the form invalid if the value is mathematically too high. e.g. `<input type="number" max="100">`
+- **maxlength attribute** physically stops the user from typing or pasting more than the specified number of characters. e.g. `<input type="text" maxlength="3">`
+- **max attribute** defines the maximum allowable value for a field. It does not stop a user from typing more characters, but it will make the form invalid if the value is mathematically too high. e.g. `<input type="number" max="100">`
 ```
 <form action="">
   <label for="email">Email Address (Required field):</label>
@@ -1164,4 +1164,33 @@ button:focus {
 }
 ```
 <img width="674" height="106" alt="image" src="https://github.com/user-attachments/assets/c83b137c-70bd-492c-a523-4fddd068f4ea" />
+
+### Key Component of a Computer
+- 1. component of a computer would be the motherboard. The motherboard holds all the memory and connectors that are needed to run the computer. It serves as the main circuit board for the computer.
+- 
+- Inside the computer case of the motherboard, you will find the CPU which stands for Central Processing Unit. The CPU is a processor that is responsible for executing instructions and performing calculations. It is often referred to as the brain of the computer.
+- 
+- The CPU is a small square with a chip that goes into the motherboard's CPU socket. The CPU processor speed is measured in gigahertz (GHz) and mega-hertz (MHz). Gigahertz is a billion cycles per second and mega-hertz is a million cycles per second.
+- 
+- The next critical component of a computer would be the system's short term memory. This is known as RAM or Random Access Memory. RAM is a temporary storage location for the computer's CPU. Anytime the computer needs to access data quickly, it will use RAM.
+- 
+- The more RAM you have on your computer, the faster it will run and the more programs you can run at the same time. If you are running low on RAM, your computer will run slower and you will notice the difference in performance.
+- 
+- It is important to note that RAM is volatile memory. This means that it is lost when the computer is turned off. This is why it is important to save your work on your computer.
+- 
+- When you do save your files, they are stored on the hard drive. The hard disk drive, or HDD, is a permanent storage location that is used to store data even when the computer is turned off. This is where all your files and software are stored.
+- 
+- The hard drive is made up of a spinning platter and an arm. The platter is where the data is stored and the arm is used to read and write data to the platter. When you have a faster hard drive, your computer will boot up faster and your programs will run faster.
+- 
+- Another type of data storage would be the Solid State Drive, or SSD for short. SSD is non volatile flash memory and can be used in place of a hard drive. SSDs are faster and smaller than hard drives but hard drives are cheaper and have more storage capacity.
+- 
+- Another key component of a computer is the power supply unit, or PSU. The PSU is responsible for converting the electricity from the wall outlet into a form that the computer can use. It sends the power from the outlet to the motherboard, CPU, and other components of the computer.
+- 
+- Another key component would be the expansion cards. These cards are inserted into the motherboard to add additional functionality to the computer. Examples of expansion cards would be the video card, sound card, and network card.
+- 
+- The video card, also known as the Graphics Processing Unit or GPU, is responsible for rendering visuals on the computer screen.
+- 
+- The sound card is responsible for playing sound on the computer speakers.
+- 
+- The network card is responsible for connecting the computer to the internet.
 
