@@ -1165,36 +1165,79 @@ button:focus {
 ```
 <img width="674" height="106" alt="image" src="https://github.com/user-attachments/assets/c83b137c-70bd-492c-a523-4fddd068f4ea" />
 
-### Key Component of a Computer
-- Sockets & Memory Slots > CPU Socket: brain of the compute, RAM/DIMM Slots: Random Access Memory modules.
+### MotherBoards Elements:-
+- Sockets & Memory Slots
+  -  CPU Socket: brain of the compute
+  -  RAM/DIMM Slots: Random Access Memory modules.
 - Expansion Slots
-- - PCIe Slots: Peripheral Component Interconnect Express slots allow you to add dedicated graphics cards, sound cards, Wi-Fi modules, or high-speed storage.
-  - M.2 Slots: Dedicated slots for installing high-speed solid-state drives (SSDs).3. Power & Storage ConnectorsPower Connectors: Typically a 24-pin connector for the main power supply and a 4/8-pin connector for the CPU.SATA Ports: Connectors used to attach traditional hard drives (HDDs) or SATA SSDs.VRMs (Voltage Regulator Modules): Built-in components that manage and deliver clean, stable power to the CPU.4. Back Panel I/O (Input/Output)Located at the rear of your PC case, this area includes:USB Ports: Used to connect mice, keyboards, and external drives.Audio Jacks: For speakers, microphones, and headphones.Video Ports: HDMI or DisplayPort for monitors (used if your processor has integrated graphics).Ethernet Port: For plugging in a wired internet cable.5. Other Important Built-in ComponentsChipset: Integrated chips (like the Northbridge/Southbridge) that dictate communication between the CPU, RAM, and other devices.BIOS/UEFI Chip: A small chip containing firmware that initializes your hardware when you boot up the computer.CMOS Battery: A small coin-shaped battery that saves your BIOS settings (like the date/time) when the PC is turned off.Fan Headers: Pins that allow you to plug in and power cooling fans
+  - PCIe Slots: Peripheral Component Interconnect Express slots allow you to add graphics cards,   sound cards, Wi-Fi modules, or high-speed storag.
+  - M.2 Slots for installing high-speed solid-state drives (SSDs).
+- Power & Storage Connectors
+  - Power Connectors
+    - 24-pin connector for the main power supply
+    - 4/8-pin connector for the CPU.
+  - SATA Ports: Connectors used to attach hard disk drives (HDDs) or SATA SSDs.
+  - VRMs (Voltage Regulator Modules): Built-in components that manage and deliver clean, stable power to the CPU.
+- Back Panel I/O (Input/Output)
+  - USB Ports: Used to connect mice, keyboards, and external drives.
+  - Audio Jacks: For speakers, microphones, and headphones.
+  - Video Ports: HDMI or DisplayPort for monitors.
+  - Ethernet Port: For plugging in a wired internet cable.
+- Other Important Built-in Components
+  - Chipset: Integrated chips (like the Northbridge/Southbridge) that dictate communication between the CPU, RAM, and other devices.
+  - BIOS/UEFI Chip: A small chip containing firmware that initializes your hardware when you boot up the computer.
+  - CMOS Battery: A small coin-shaped battery that saves your BIOS settings (like the date/time) when the PC is turned off.
+  - Fan Headers: Pins that allow you to plug in and power cooling fans
+
+### Key Component of a Computer
 - 1\. **Motherboard** holds all the memory and connectors that are needed to run the computer. It serves as the **main circuit board** for the computer.
-- 
-- Inside the computer case of the motherboard, you will find the CPU which stands for Central Processing Unit. The CPU is a processor that is responsible for executing instructions and performing calculations. It is often referred to as the brain of the computer.
-- 
-- The CPU is a small square with a chip that goes into the motherboard's CPU socket. The CPU processor speed is measured in gigahertz (GHz) and mega-hertz (MHz). Gigahertz is a billion cycles per second and mega-hertz is a million cycles per second.
-- 
-- The next critical component of a computer would be the system's short term memory. This is known as RAM or Random Access Memory. RAM is a temporary storage location for the computer's CPU. Anytime the computer needs to access data quickly, it will use RAM.
-- 
+- 2\. **CPU: Central Processing Unit** (brain of the computer) is a processor that is responsible for executing instructions and performing calculations.
+- CPU processor speed is measured in gigahertz (GHz) and mega-hertz (MHz). Gigahertz is a billion cycles per second and mega-hertz is a million cycles per second. 
+- 3\. **Short Term Memory: RAM (Random Access Memory)** is a temporary storage location for the computer's CPU. Anytime the computer needs to access data quickly, it will use RAM.
 - The more RAM you have on your computer, the faster it will run and the more programs you can run at the same time. If you are running low on RAM, your computer will run slower and you will notice the difference in performance.
-- 
-- It is important to note that RAM is volatile memory. This means that it is lost when the computer is turned off. This is why it is important to save your work on your computer.
-- 
-- When you do save your files, they are stored on the hard drive. The hard disk drive, or HDD, is a permanent storage location that is used to store data even when the computer is turned off. This is where all your files and software are stored.
-- 
+- RAM is volatile memory. This means that it is lost when the computer is turned off. This is why it is important to save your work on your computer.
+- 4\. **Hard Disk Drive (HDD)** is a permanent storage location that is used to store data even when the computer is turned off. This is where all your files and software are stored.
 - The hard drive is made up of a spinning platter and an arm. The platter is where the data is stored and the arm is used to read and write data to the platter. When you have a faster hard drive, your computer will boot up faster and your programs will run faster.
-- 
-- Another type of data storage would be the Solid State Drive, or SSD for short. SSD is non volatile flash memory and can be used in place of a hard drive. SSDs are faster and smaller than hard drives but hard drives are cheaper and have more storage capacity.
-- 
-- Another key component of a computer is the power supply unit, or PSU. The PSU is responsible for converting the electricity from the wall outlet into a form that the computer can use. It sends the power from the outlet to the motherboard, CPU, and other components of the computer.
-- 
-- Another key component would be the expansion cards. These cards are inserted into the motherboard to add additional functionality to the computer. Examples of expansion cards would be the video card, sound card, and network card.
-- 
-- The video card, also known as the Graphics Processing Unit or GPU, is responsible for rendering visuals on the computer screen.
-- 
-- The sound card is responsible for playing sound on the computer speakers.
-- 
-- The network card is responsible for connecting the computer to the internet.
+- 5\. **Solid State Drive (SSD)** is non volatile flash memory and can be used in place of a hard drive. SSDs are faster and smaller than hard drives but hard drives are cheaper and have more storage capacity.
+- 6\. **Power Supply Unit (PSU)** is responsible for converting the electricity from the wall outlet into a form that the computer can use. It sends the power from the outlet to the motherboard, CPU, and other components of the computer.
+- 7\. **Expansion Cards** are inserted into the motherboard to add additional functionality to the computer. Examples of expansion cards would be the video card, sound card, and network card.
+- video card, also known as the Graphics Processing Unit or GPU, is responsible for rendering visuals on the computer screen.
+- sound card is responsible for playing sound on the computer speakers.
+- network card is responsible for connecting the computer to the internet.
+- **Different Types of Internet Service Providers**: An Internet Service Provider (ISP) is a company that provides access to the internet. There are different types of **ISPs, including dial-up, DSL, cable, fiber-optic, and satellite**.
+- Safe Ways to Sign Into Your Computer: Examples of safe ways to sign into your computer include using a strong password, enabling two-factor authentication, and using a password manager.
+- **Integrated Development Environment (IDE)**: a tool that helps developers write, test, and debug code in an efficient manner.
+- **Code Editor**: a tool that developers use to write and debug code.
+- **Git**: a popular version control system that allows developers to track changes in their code and collaborate with others.
+- **Cloud-based Hosting Services for repositories** is a storage location for project files and version history. Popular cloud-based hosting services for repositories include **GitHub, GitLab, and Bitbucket**.
+- **Package Managers**: tools that help developers simplify the process of adding, updating, and removing libraries and project dependencies. Examples include npm, pip, and Maven.
+- **Testing Libraries and Frameworks**: Testing is done in software to ensure that the code works as expected. Examples of testing libraries and frameworks include Jest, PHPUnit, and JUnit.
+
+- **root directory**: top-level directory in a file system. Directory is another name for a folder.
+- **Markdown**: a markup language commonly used for documentation and README files. A README file is a file that contains information about a project, such as how to install and use it.
+- index.html: represents the default page that is displayed when a user visits a website.
+- **Explorer** is the file manager in Windows
+- **Finder** is the file manager in macOS.
+- HTML, CSS, and JS File Types: **.html file extension** is used for HTML files, **.css** for CSS files, and **.js** for JavaScript files.
+- Common Image and Graphic Formats:
+  - **JPEG and PNG** are common image file formats.
+  - **GIF** is another common image file format that supports animation.
+  - **SVG** is a file format for vector graphics.
+- Common Audio and Video Formats:
+  - MP3 format is commonly used for audio files.
+  - MP4 format is commonly used for video files.
+  - MOV format was developed by Apple and is commonly used for video files.
+- Common Font Formats:
+  - **TTF format** is commonly used for TrueType fonts.
+  - **WOFF format** is commonly used for web fonts. The successor to WOFF is WOFF2, which provides better compression.
+- **ZIP**: a file format that is used to compress files and folders.
+- **Web browser** is a software application that allows users to access and view websites on the internet.
+- **Search Engine** is a tool that allows users to search for information on the internet. Examples include **Google, Bing, and Yahoo**.
+- Common web browsers:
+  - Google Chrome, Mozilla Firefox, and Microsoft Edge.
+- Common Search Strategies:
+  - You can use **site:** followed by the URL of a website to search for content on that website.
+  - You can use **filetype:** followed by a file extension to search for files of that type.
+  - You can prefix a search term with a minus sign to exclude results containing that term.
+  - You can prefix a search term with a plus sign to include results containing that term.
 
