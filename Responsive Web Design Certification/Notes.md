@@ -1204,40 +1204,95 @@ button:focus {
 - video card, also known as the Graphics Processing Unit or GPU, is responsible for rendering visuals on the computer screen.
 - sound card is responsible for playing sound on the computer speakers.
 - network card is responsible for connecting the computer to the internet.
-- **Different Types of Internet Service Providers**: An Internet Service Provider (ISP) is a company that provides access to the internet. There are different types of **ISPs, including dial-up, DSL, cable, fiber-optic, and satellite**.
-- Safe Ways to Sign Into Your Computer: Examples of safe ways to sign into your computer include using a strong password, enabling two-factor authentication, and using a password manager.
+#### 3 different tiers
+- 1st tier are the giant conglomerate companies, which have the infrastructure to handle most (if not all) of their network traffic independently.
+- 2nd tier are the country-wide providers, which sometimes rent access to tier 1 networks but can stand fairly well on their own.
+- 3rd tier are the small companies that primarily focus on providing internet to local markets, and rely on larger ISPs to provide their infrastructure.
+- **Different Types of Internet Service Providers**: An Internet Service Provider (ISP) is a company that provides access to the internet. There are different types of connection **ISPs, including dial-up, DSL, cable, fiber-optic, and satellite**.
+  - **Fibre optic connections** rely on glass or plastic fibres to transmit data via light, resulting in very high connection speeds and data exchange.
+  - **Cable connections** use the same infrastructure as a cable television provider, which often makes them readily available in many regions.
+  - **DSL connections** use the infrastructure that landline phone services use.
+  - DSL is available in areas is slower option where cable might not be.
+  - **Dial-up** also uses the phone lines, but requires exclusive connection to the internet.
+  - **Satellite connections** use an array of satellites orbiting the earth to connect various devices across the world.
+-  use a combination of letters, numbers and special characters to make it more secure using a strong password, enabling (2FA)two-factor authentication an extra layer of security and requires a second form of verification of authorized user, and using a password manager.
+-  developers go for computers with fast processing power to handle resource-intensive tasks.
 - **Integrated Development Environment (IDE)**: a tool that helps developers write, test, and debug code in an efficient manner.
-- **Code Editor**: a tool that developers use to write and debug code.
+- **IDEs like Visual Studio, IntelliJ IDEA, JetBrains, and PyCharm** provide powerful features like code completion, debugging, and integrated terminal support.
+- **Code Editor**: a tool that developers use to write and debug code. Visual Studio Code (VS Code), Sublime Text, Atom, Notepad++, and Brackets. is essentially a code editor
 - **Git**: a popular version control system that allows developers to track changes in their code and collaborate with others.
 - **Cloud-based Hosting Services for repositories** is a storage location for project files and version history. Popular cloud-based hosting services for repositories include **GitHub, GitLab, and Bitbucket**.
-- **Package Managers**: tools that help developers simplify the process of adding, updating, and removing libraries and project dependencies. Examples include **npm, pip, and Maven**.
+- **Package Managers**: tools that help developers simplify the process of adding, updating, and removing libraries and project dependencies. Examples include **npm, pip, yarn, pnpm for javascript and Maven**.
 - **Testing Libraries and Frameworks**: Testing is done in software to ensure that the code works as expected. Examples of testing libraries and frameworks include **Jest, PHPUnit, and JUnit**.
-
+- developers test their code to ensure it works as intended by **Testing frameworks**.
 - **root directory**: top-level directory in a file system. Directory is another name for a folder.
-- **Markdown**: a markup language commonly used for documentation and README files.
+- **Markdown(.md extension)**: a markup language which is a **lightweight markup language** that is commonly used for documentation and README files.
   - README file is a file that contains information about a project, such as how to install and use it.
 - **index.html**: represents the default page that is displayed when a user visits a website.
+```
+.
+├── /assets
+│   ├── /images
+│   │   ├── logo.png
+│   │   ├── banner.jpg
+│   │   └── icons.svg
+│   ├── /fonts
+│   │   ├── custom-font.woff
+│   │   └── custom-font.woff2
+├── /css
+│   ├── main.css
+│   ├── about.css
+│   └── contact.css
+├── index.html
+├── about.html
+├── contact.html
+└── README.md
+```
 - **Explorer** is the file manager in Windows
 - **Finder** is the file manager in macOS.
 - HTML, CSS, and JS File Types: **.html file extension** is used for HTML files, **.css** for CSS files, and **.js** for JavaScript files.
+- **SideBar** is a vertical panel displayed on the left or right edge of a window screen
+-  **TaskBar** is a horizontal bar typically located at the bottom of a Windows computer screen, where you can search for files and folder
 - Common Image and Graphic Formats:
-  - **JPEG and PNG** are common image file formats.
-  - **GIF** is another common image file format that supports animation.
-  - **SVG** is a file format for vector graphics.
+  - **JPEG("Joint Photographic Experts Group") and PNG("Portable Network Graphics")** are common image file formats compression scaled losing quality
+  - **GIF("Graphics Interchange Format")** is another common image file format that supports animation.
+  - **SVG("Scalable Vector Graphics")** is a file format for vector graphics can be scaled as much as needed without losing quality.
 - Common Audio and Video Formats:
   - MP3 format is commonly used for audio files.
   - MP4 format is commonly used for video files.
   - MOV format was developed by Apple and is commonly used for video files.
+  - WAV, a lossless audio format
 - Common Font Formats:
   - **TTF format** is commonly used for TrueType fonts.
-  - **WOFF format** is commonly used for web fonts. The successor to WOFF is WOFF2, which provides better compression.
+  - **WOFF(Web Open Font Format) format** is commonly used for web fonts. The successor to WOFF is WOFF2, which provides better compression.
+  - **WebM** a high-quality open-source video format.
 - **ZIP**: a file format that is used to compress files and folders.
 - **Web browser** is a software application that allows users to access and view websites on the internet.
 - **Search Engine** is a tool that allows users to search for information on the internet. Examples include **Google, Bing, and Yahoo**.
 - Common web browsers:
   - Google Chrome, Mozilla Firefox, and Microsoft Edge.
+- Key features of web browsers include
+  - the address bar
+  - the rendering engine,
+- Browsers also offer bookmarks to save and organize favorite websites, extensions to enhance functionality, and various privacy and security features such as pop-up blockers and private browsing modes.
+- Components of websites include
+  - the domain name, which is the unique address of the website (like freecodecamp.org)
+  - web pages, which are individual documents that make up a website.
+- Key aspects of search engines include **web crawlers, also known as spiders or bots**, which are programs that systematically browse the web to discover and index new content.
+- **Web browsers** are the tools used to access both websites and search engines.
+- **Websites** are the destinations that users visit through browsers or find via search engines.
+- **Search engines** help users discover websites by providing organized access to the vast amount of information on the web.
 - Common Search Strategies:
+  - matched both keywords > query in quotation marks, like "freecodecamp curriculum".
+  - match sites that include both of those terms, but not necessarily next to each other as a phrase, each term with a plus symbol like this: +freecodecamp +curriculum.
+  - freeCodeCamp's initiatives outside of the curriculum. In this case, you can prefix the term curriculum with a minus symbol like this: +freecodecamp -curriculum.
   - You can use **site:** followed by the URL of a website to search for content on that website.
+  ```
+  site:freecodecamp.org/news curriculum
+
+  # query would search for Python articles on our news site, excluding articles that might talk about our curriculum.
+  site:freecodecamp.org/news +python -curriculum 
+  ```
   - You can use **filetype:** followed by a file extension to search for files of that type.
   - You can prefix a search term with a minus sign to exclude results containing that term.
   - You can prefix a search term with a plus sign to include results containing that term.
