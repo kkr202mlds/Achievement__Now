@@ -1166,7 +1166,11 @@ button:focus {
 <img width="674" height="106" alt="image" src="https://github.com/user-attachments/assets/c83b137c-70bd-492c-a523-4fddd068f4ea" />
 
 ### Key Component of a Computer
-- 1\. component of a computer would be the motherboard. The motherboard holds all the memory and connectors that are needed to run the computer. It serves as the main circuit board for the computer.
+- Sockets & Memory Slots > CPU Socket: brain of the compute, RAM/DIMM Slots: Random Access Memory modules.
+- Expansion Slots
+- - PCIe Slots: Peripheral Component Interconnect Express slots allow you to add dedicated graphics cards, sound cards, Wi-Fi modules, or high-speed storage.
+  - M.2 Slots: Dedicated slots for installing high-speed solid-state drives (SSDs).3. Power & Storage ConnectorsPower Connectors: Typically a 24-pin connector for the main power supply and a 4/8-pin connector for the CPU.SATA Ports: Connectors used to attach traditional hard drives (HDDs) or SATA SSDs.VRMs (Voltage Regulator Modules): Built-in components that manage and deliver clean, stable power to the CPU.4. Back Panel I/O (Input/Output)Located at the rear of your PC case, this area includes:USB Ports: Used to connect mice, keyboards, and external drives.Audio Jacks: For speakers, microphones, and headphones.Video Ports: HDMI or DisplayPort for monitors (used if your processor has integrated graphics).Ethernet Port: For plugging in a wired internet cable.5. Other Important Built-in ComponentsChipset: Integrated chips (like the Northbridge/Southbridge) that dictate communication between the CPU, RAM, and other devices.BIOS/UEFI Chip: A small chip containing firmware that initializes your hardware when you boot up the computer.CMOS Battery: A small coin-shaped battery that saves your BIOS settings (like the date/time) when the PC is turned off.Fan Headers: Pins that allow you to plug in and power cooling fans
+- 1\. **Motherboard** holds all the memory and connectors that are needed to run the computer. It serves as the **main circuit board** for the computer.
 - 
 - Inside the computer case of the motherboard, you will find the CPU which stands for Central Processing Unit. The CPU is a processor that is responsible for executing instructions and performing calculations. It is often referred to as the brain of the computer.
 - 
