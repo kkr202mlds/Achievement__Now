@@ -1291,6 +1291,7 @@ button:focus {
   site:freecodecamp.org/news curriculum
 
   # query would search for Python articles on our news site, excluding articles that might talk about our curriculum.
+
   site:freecodecamp.org/news +python -curriculum 
   ```
   - You can use **filetype:** followed by a file extension to search for files of that type.
