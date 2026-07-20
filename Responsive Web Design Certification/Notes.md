@@ -889,6 +889,8 @@ i indicates that the text differs from the surrounding content, while em emphasi
 <img width="966" height="113" alt="Screenshot 2026-06-29 155434" src="https://github.com/user-attachments/assets/9dbbcf20-70db-4f4a-bac0-aea6dc735ba9" />
 
 - **minlength and maxlength attributes** are used to set the minimum and maximum length in characters for the email input.
+- maxlength attribute physically stops the user from typing or pasting more than the specified number of characters. e.g. `<input type="text" maxlength="3">`
+- max attribute defines the maximum allowable value for a field. It does not stop a user from typing more characters, but it will make the form invalid if the value is mathematically too high. e.g. `<input type="number" max="100">`
 ```
 <form action="">
   <label for="email">Email Address (Required field):</label>
