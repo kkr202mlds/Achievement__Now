@@ -1166,7 +1166,7 @@ button:focus {
 <img width="674" height="106" alt="image" src="https://github.com/user-attachments/assets/c83b137c-70bd-492c-a523-4fddd068f4ea" />
 
 ### Key Component of a Computer
-- 1/. component of a computer would be the motherboard. The motherboard holds all the memory and connectors that are needed to run the computer. It serves as the main circuit board for the computer.
+- 1\. component of a computer would be the motherboard. The motherboard holds all the memory and connectors that are needed to run the computer. It serves as the main circuit board for the computer.
 - 
 - Inside the computer case of the motherboard, you will find the CPU which stands for Central Processing Unit. The CPU is a processor that is responsible for executing instructions and performing calculations. It is often referred to as the brain of the computer.
 - 
