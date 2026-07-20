@@ -1241,4 +1241,10 @@ button:focus {
   - You can use **filetype:** followed by a file extension to search for files of that type.
   - You can prefix a search term with a minus sign to exclude results containing that term.
   - You can prefix a search term with a plus sign to include results containing that term.
+- risks of gripping the mouse too tightly
+  - It can cause hand and wrist issues.
+- benefit of using an ergonomic keyboard and mouse
+  - They reduce wrist strain by keeping your hands in a more natural position.
+- Recommendation for the height of your mouse in relation to your keyboard
+  - The mouse should be at the same height as the keyboard.
 
