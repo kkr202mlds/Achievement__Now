@@ -1204,11 +1204,11 @@ button:focus {
 - video card, also known as the Graphics Processing Unit or GPU, is responsible for rendering visuals on the computer screen.
 - sound card is responsible for playing sound on the computer speakers.
 - network card is responsible for connecting the computer to the internet.
-#### 3 different tiers
+#### 3 different Types of ISP
 - 1st tier are the giant conglomerate companies, which have the infrastructure to handle most (if not all) of their network traffic independently.
 - 2nd tier are the country-wide providers, which sometimes rent access to tier 1 networks but can stand fairly well on their own.
 - 3rd tier are the small companies that primarily focus on providing internet to local markets, and rely on larger ISPs to provide their infrastructure.
-- **Different Types of Internet Service Providers**: An Internet Service Provider (ISP) is a company that provides access to the internet. There are different types of connection **ISPs, including dial-up, DSL, cable, fiber-optic, and satellite**.
+- **Different Connections Types of Internet Service Providers**: An Internet Service Provider (ISP) is a company that provides access to the internet. There are different types of connection **ISPs, including dial-up, DSL, cable, fiber-optic, and satellite**.
   - **Fibre optic connections** rely on glass or plastic fibres to transmit data via light, resulting in very high connection speeds and data exchange.
   - **Cable connections** use the same infrastructure as a cable television provider, which often makes them readily available in many regions.
   - **DSL connections** use the infrastructure that landline phone services use.
