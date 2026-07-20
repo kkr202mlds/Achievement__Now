@@ -1210,12 +1210,13 @@ button:focus {
 - **Code Editor**: a tool that developers use to write and debug code.
 - **Git**: a popular version control system that allows developers to track changes in their code and collaborate with others.
 - **Cloud-based Hosting Services for repositories** is a storage location for project files and version history. Popular cloud-based hosting services for repositories include **GitHub, GitLab, and Bitbucket**.
-- **Package Managers**: tools that help developers simplify the process of adding, updating, and removing libraries and project dependencies. Examples include npm, pip, and Maven.
-- **Testing Libraries and Frameworks**: Testing is done in software to ensure that the code works as expected. Examples of testing libraries and frameworks include Jest, PHPUnit, and JUnit.
+- **Package Managers**: tools that help developers simplify the process of adding, updating, and removing libraries and project dependencies. Examples include **npm, pip, and Maven**.
+- **Testing Libraries and Frameworks**: Testing is done in software to ensure that the code works as expected. Examples of testing libraries and frameworks include **Jest, PHPUnit, and JUnit**.
 
 - **root directory**: top-level directory in a file system. Directory is another name for a folder.
-- **Markdown**: a markup language commonly used for documentation and README files. A README file is a file that contains information about a project, such as how to install and use it.
-- index.html: represents the default page that is displayed when a user visits a website.
+- **Markdown**: a markup language commonly used for documentation and README files.
+  - README file is a file that contains information about a project, such as how to install and use it.
+- **index.html**: represents the default page that is displayed when a user visits a website.
 - **Explorer** is the file manager in Windows
 - **Finder** is the file manager in macOS.
 - HTML, CSS, and JS File Types: **.html file extension** is used for HTML files, **.css** for CSS files, and **.js** for JavaScript files.
